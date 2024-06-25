@@ -24,6 +24,17 @@
 			}
 		},
 		{
+			"src": "/svelte-vercel-project",
+			"dest": "/svelte-vercel-project/"
+		},
+		{
+			"src": "/svelte-vercel-project/",
+			"status": 308,
+			"headers": {
+				"Location": "/svelte-vercel-project"
+			}
+		},
+		{
 			"src": "/second-post",
 			"dest": "/second-post/"
 		},
@@ -68,6 +79,9 @@
 		},
 		"contact.html": {
 			"path": "contact"
+		},
+		"svelte-vercel-project.html": {
+			"path": "svelte-vercel-project"
 		},
 		"second-post.html": {
 			"path": "second-post"

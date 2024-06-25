@@ -59,6 +59,14 @@
   "_ssr.js": {
     "file": "chunks/ssr.js"
   },
+  "_svelte-vercel-project.js": {
+    "file": "chunks/svelte-vercel-project.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
   "_utils.js": {
     "file": "chunks/utils.js"
   },
@@ -242,7 +250,8 @@
     ],
     "dynamicImports": [
       "_first-post.js",
-      "_second-post.js"
+      "_second-post.js",
+      "_svelte-vercel-project.js"
     ]
   },
   "src/routes/about/+page.svelte": {
@@ -260,6 +269,7 @@
     "imports": [
       "_first-post.js",
       "_second-post.js",
+      "_svelte-vercel-project.js",
       "_index2.js"
     ]
   },
