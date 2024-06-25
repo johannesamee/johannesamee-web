@@ -10,8 +10,11 @@ published: true
 
 ## Markdown
 
-Hey friends! 👋
+Hey! 👋
 
+---
+
+Some `TypeScript` code:
 ```ts
 function greet(name: string) {
 	console.log(`Hey ${name}! 👋`)

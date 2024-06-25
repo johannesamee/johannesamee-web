@@ -1,2 +1,2 @@
 <h1>Contact</h1>
-<p>New phone, who dis?</p>
+<p>TODO: Add contact</p>
