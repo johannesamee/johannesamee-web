@@ -7,6 +7,12 @@
       "_internal.js"
     ]
   },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "imports": [
+      "_exports.js"
+    ]
+  },
   "_config.js": {
     "file": "chunks/config.js"
   },
@@ -132,9 +138,9 @@
     "file": "_app/immutable/assets/manrope-vietnamese-400-normal.ooLdXFia.woff2",
     "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff2"
   },
-  "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+  "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
     "file": "index.js",
-    "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/server/index.js",
     "isEntry": true,
     "imports": [
       "_index.js",
@@ -149,7 +155,7 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_exports.js"
+      "_client.js"
     ],
     "css": [
       "_app/immutable/assets/_error.COZ97Kw5.css"
@@ -165,7 +171,7 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.Cf276Iai.css"
+      "_app/immutable/assets/_layout.Dg7pkPPR.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
@@ -192,7 +198,10 @@
   "src/routes/+layout.ts": {
     "file": "entries/pages/_layout.ts.js",
     "src": "src/routes/+layout.ts",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "_client.js"
+    ]
   },
   "src/routes/+page.svelte": {
     "file": "entries/pages/_page.svelte.js",

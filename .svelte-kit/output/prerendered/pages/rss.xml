@@ -2,22 +2,22 @@
 			<channel>
 				<title>Johannes Amée</title>
 				<description>SvelteKit exploration by Johannes</description>
-				<link></link>
-				<atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
+				<link>https://johannesamee-web.vercel.app/</link>
+				<atom:link href="https://johannesamee-web.vercel.app//rss.xml" rel="self" type="application/rss+xml"/>
 				
 						<item>
 							<title>Second</title>
 							<description>Second post.</description>
-							<link>/second-post</link>
-							<guid isPermaLink="true">/second-post</guid>
+							<link>https://johannesamee-web.vercel.app//second-post</link>
+							<guid isPermaLink="true">https://johannesamee-web.vercel.app//second-post</guid>
 							<pubDate>Sat, 15 Apr 2023 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>First post</title>
 							<description>First post.</description>
-							<link>/first-post</link>
-							<guid isPermaLink="true">/first-post</guid>
+							<link>https://johannesamee-web.vercel.app//first-post</link>
+							<guid isPermaLink="true">https://johannesamee-web.vercel.app//first-post</guid>
 							<pubDate>Thu, 13 Apr 2023 22:00:00 GMT</pubDate>
 						</item>
 					
