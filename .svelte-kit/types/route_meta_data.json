@@ -1,0 +1,23 @@
+{
+	"/": [
+		"src/routes/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/about": [
+		"src/routes/+layout.ts"
+	],
+	"/api/posts": [
+		"src/routes/api/posts/+server.ts"
+	],
+	"/contact": [
+		"src/routes/+layout.ts"
+	],
+	"/rss.xml": [
+		"src/routes/rss.xml/+server.ts"
+	],
+	"/[slug]": [
+		"src/routes/[slug]/+page.ts",
+		"src/routes/+layout.ts"
+	]
+}
