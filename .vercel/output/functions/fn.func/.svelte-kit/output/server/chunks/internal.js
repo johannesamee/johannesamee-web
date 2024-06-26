@@ -123,8 +123,14 @@ const options = {
   service_worker: false,
   templates: {
     app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="viewport" content="width=device-width" />\n		<link rel="icon" href="' + assets2 + `/favicon.png" />
-		<link rel="icon" href="https://fav.farm/🔥" />
+		<link rel="icon" href="https://fav.farm/🌭" />
 		<link rel="alternate" type="application/atom+xml" href="/rss.xml" />
+
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Johannes Amée Björkdahl Web">
+		<meta property="og:image" content="./gradient-preview.webp">
+		<meta property="og:url" content="https://www.johannesamee.com/">
+
 		<script type="module">
 			const theme = localStorage.getItem('color-scheme')
 
@@ -204,7 +210,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "159aq5v"
+  version_hash: "1n5mpjo"
 };
 async function get_hooks() {
   return {};
