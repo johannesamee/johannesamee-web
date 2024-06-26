@@ -126,10 +126,26 @@ const options = {
 		<link rel="icon" href="https://fav.farm/🌭" />
 		<link rel="alternate" type="application/atom+xml" href="/rss.xml" />
 
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Johannes Amée Björkdahl Web">
-		<meta property="og:image" content="./gradient-preview.webp">
-		<meta property="og:url" content="https://www.johannesamee.com/">
+		<!-- HTML Meta Tags -->
+        <title>Johannes Amée Björkdahl Web</title>
+        <meta name="description" content="">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.johannesamee.com/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Johannes Amée Björkdahl Web">
+        <meta property="og:description" content="Exploring web development, LLMs, and other engaging topics. Follow for insights, updates, and creative experiments.">
+        <meta property="og:image" content="https://johannesamee.com./gradient-preview.webp">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="johannesamee.com">
+        <meta property="twitter:url" content="https://www.johannesamee.com/">
+        <meta name="twitter:title" content="Johannes Amée Björkdahl Web">
+        <meta name="twitter:description" content="Exploring web development, LLMs, and other engaging topics. Follow for insights, updates, and creative experiments.">
+        <meta name="twitter:image" content="https://johannesamee.com./gradient-preview.webp">
+
+        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
 		<script type="module">
 			const theme = localStorage.getItem('color-scheme')
@@ -210,7 +226,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1n5mpjo"
+  version_hash: "x2muyb"
 };
 async function get_hooks() {
   return {};
