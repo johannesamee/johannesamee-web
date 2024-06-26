@@ -142,6 +142,10 @@ li {
     margin-top: var(--size-7);
 }
 
+.prose blockquote p {
+    margin-top: 0 !important;
+}
+
 .prose :is(ul, ol) {
     list-style-type: disc;
     padding-left: var(--size-5);
@@ -157,4 +161,12 @@ li {
     padding: var(--size-3);
     border-radius: 8px;
     tab-size: 2;
+}
+
+.prose .contains-task-list {
+    padding-left: 0;
+}
+
+.prose .contains-task-list li {
+    list-style-type: none;
 }

@@ -74,6 +74,37 @@ const Icon = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   })}${slots.default ? slots.default({}) : ``}</svg>`;
 });
 const Icon$1 = Icon;
+const Circle_user = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const iconNode = [
+    ["circle", { "cx": "12", "cy": "12", "r": "10" }],
+    ["circle", { "cx": "12", "cy": "10", "r": "3" }],
+    [
+      "path",
+      {
+        "d": "M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"
+      }
+    ]
+  ];
+  return `${validate_component(Icon$1, "Icon").$$render($$result, Object.assign({}, { name: "circle-user" }, $$props, { iconNode }), {}, {
+    default: () => {
+      return `${slots.default ? slots.default({}) : ``}`;
+    }
+  })}`;
+});
+const CircleUser = Circle_user;
+const Info = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const iconNode = [
+    ["circle", { "cx": "12", "cy": "12", "r": "10" }],
+    ["path", { "d": "M12 16v-4" }],
+    ["path", { "d": "M12 8h.01" }]
+  ];
+  return `${validate_component(Icon$1, "Icon").$$render($$result, Object.assign({}, { name: "info" }, $$props, { iconNode }), {}, {
+    default: () => {
+      return `${slots.default ? slots.default({}) : ``}`;
+    }
+  })}`;
+});
+const Info$1 = Info;
 const Moon = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const iconNode = [
     [
@@ -90,6 +121,19 @@ const Moon = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   })}`;
 });
 const Moon$1 = Moon;
+const Rss = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const iconNode = [
+    ["path", { "d": "M4 11a9 9 0 0 1 9 9" }],
+    ["path", { "d": "M4 4a16 16 0 0 1 16 16" }],
+    ["circle", { "cx": "5", "cy": "19", "r": "1" }]
+  ];
+  return `${validate_component(Icon$1, "Icon").$$render($$result, Object.assign({}, { name: "rss" }, $$props, { iconNode }), {}, {
+    default: () => {
+      return `${slots.default ? slots.default({}) : ``}`;
+    }
+  })}`;
+});
+const Rss$1 = Rss;
 const Sun = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const iconNode = [
     ["circle", { "cx": "12", "cy": "12", "r": "4" }],
@@ -123,12 +167,12 @@ const Toggle = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<button aria-label="Toggle theme" class="svelte-114mtci">${$theme === "dark" ? `<div class="svelte-114mtci">${validate_component(Sun$1, "Sun").$$render($$result, {}, {}, {})} <span data-svelte-h="svelte-30gjga">Light</span></div>` : `<div class="svelte-114mtci">${validate_component(Moon$1, "Moon").$$render($$result, {}, {}, {})} <span data-svelte-h="svelte-397x2m">Dark</span></div>`} </button>`;
 });
 const css$2 = {
-  code: "nav.svelte-scea26{padding-block:var(--size-7)}.links.svelte-scea26{margin-block:var(--size-7)}a.svelte-scea26{color:inherit;text-decoration:none}@media(min-width: 768px){nav.svelte-scea26{display:flex;justify-content:space-between}.links.svelte-scea26{display:flex;gap:var(--size-7);margin-block:0}}",
+  code: "nav.svelte-1ihufdv.svelte-1ihufdv{padding-block:var(--size-7)}.links.svelte-1ihufdv.svelte-1ihufdv{margin-block:var(--size-7)}a.svelte-1ihufdv.svelte-1ihufdv{color:inherit;text-decoration:none}.links.svelte-1ihufdv li a.svelte-1ihufdv{display:flex;align-content:center;gap:var(--size-2)}@media(min-width: 768px){nav.svelte-1ihufdv.svelte-1ihufdv{display:flex;justify-content:space-between}.links.svelte-1ihufdv.svelte-1ihufdv{display:flex;gap:var(--size-7);margin-block:0}}",
   map: null
 };
 const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$2);
-  return `<nav class="svelte-scea26"><a href="/" class="title svelte-scea26"><b>${escape(title)}</b></a> <ul class="links svelte-scea26" data-svelte-h="svelte-oh7uu5"><li><a href="/about" class="svelte-scea26">About</a></li> <li><a href="/contact" class="svelte-scea26">Contact</a></li> <li><a href="/rss.xml" target="_blank" class="svelte-scea26">RSS</a></li></ul> ${validate_component(Toggle, "Toggle").$$render($$result, {}, {}, {})} </nav>`;
+  return `<nav class="svelte-1ihufdv"><a href="/" class="title svelte-1ihufdv"><b>${escape(title)}</b></a> <ul class="links svelte-1ihufdv"><li><a href="/about" class="svelte-1ihufdv">${validate_component(Info$1, "Info").$$render($$result, {}, {}, {})} <span data-svelte-h="svelte-1poeibp">About</span></a></li> <li><a href="/contact" class="svelte-1ihufdv">${validate_component(CircleUser, "CircleUser").$$render($$result, {}, {}, {})} <span data-svelte-h="svelte-1mqhoa6">Contact</span></a></li> <li><a href="/rss.xml" target="_blank" class="svelte-1ihufdv">${validate_component(Rss$1, "Rss").$$render($$result, {}, {}, {})} <span data-svelte-h="svelte-1u97bkq">RSS</span></a></li></ul> ${validate_component(Toggle, "Toggle").$$render($$result, {}, {}, {})} </nav>`;
 });
 const css$1 = {
   code: ".transition.svelte-vcdv4c{height:100%}",
@@ -142,7 +186,7 @@ const Transition = create_ssr_component(($$result, $$props, $$bindings, slots) =
   return `<div class="transition svelte-vcdv4c">${slots.default ? slots.default({}) : ``}</div>`;
 });
 const css = {
-  code: ".layout.svelte-1sq3us8{height:100%;max-inline-size:1440px;display:grid;grid-template-rows:auto 1fr auto;margin-inline:auto;padding-inline:var(--size-7)}main.svelte-1sq3us8{padding-block:var(--size-9)}@media(min-width: 1440px){.layout.svelte-1sq3us8{padding-inline:0}}",
+  code: ".layout.svelte-xuadhr.svelte-xuadhr{height:100%;max-inline-size:1024px;display:grid;grid-template-rows:auto 1fr auto;margin-inline:auto;padding-inline:var(--size-7)}main.svelte-xuadhr.svelte-xuadhr{padding-block:var(--size-9);display:grid;grid-template-columns:1fr 256px;gap:64px}.card.svelte-xuadhr.svelte-xuadhr{flex-basis:var(--size-content-1);display:flex;align-self:start;flex-direction:column;gap:var(--size-2);background:var(--surface-3);border:1px solid var(--surface-1);padding:var(--size-4);border-radius:var(--radius-3)}.card.svelte-xuadhr>h5.svelte-xuadhr{line-height:var(--font-lineheight-1)}@media(min-width: 1024px){.layout.svelte-xuadhr.svelte-xuadhr{padding-inline:0}}",
   map: null
 };
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -150,11 +194,11 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.data === void 0 && $$bindings.data && data !== void 0)
     $$bindings.data(data);
   $$result.css.add(css);
-  return `<div class="layout svelte-1sq3us8">${validate_component(Header, "Header").$$render($$result, {}, {}, {})} <main class="svelte-1sq3us8">${validate_component(Transition, "PageTransition").$$render($$result, { url: data.url }, {}, {
+  return `<div class="layout svelte-xuadhr">${validate_component(Header, "Header").$$render($$result, {}, {}, {})} <main class="svelte-xuadhr">${validate_component(Transition, "PageTransition").$$render($$result, { url: data.url }, {}, {
     default: () => {
       return `${slots.default ? slots.default({}) : ``}`;
     }
-  })}</main> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})} </div>`;
+  })} <div class="card svelte-xuadhr" data-svelte-h="svelte-1r3fph5"><h5 class="svelte-xuadhr">Collected webs</h5> <section><a href="https://www.wakingup.com/" target="_blank">Waking Up</a><br> <small>A New Operating System for Your Mind</small></section> <section><a href="https://fortelabs.com/" target="_blank">Forte Labs</a><br> <small>What&#39;s Your Productivity Potential?</small></section></div></main> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})} </div>`;
 });
 export {
   Layout as default

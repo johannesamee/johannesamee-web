@@ -1,7 +1,7 @@
 import { c as create_ssr_component, v as validate_component } from "./ssr.js";
 import { M as Mdsvex } from "./mdsvex.js";
 const metadata = {
-  "title": "New domain johannesamee.com",
+  "title": "New Domain johannesamee.com",
   "description": "Testing deployments to new domain via vercel",
   "date": "2023-6-26",
   "categories": ["sveltekit", "svelte"],

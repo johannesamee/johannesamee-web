@@ -37,8 +37,8 @@
 	}
 
 	.title {
-		font-size: var(--font-size-fluid-3);
-		text-transform: capitalize;
+		font-size: var(--font-size-fluid-2);
+		/* text-transform: capitalize; */
 	}
 
 	.date {
@@ -47,5 +47,9 @@
 
 	.description {
 		margin-top: var(--size-3);
+	}
+
+	blockquote p {
+		margin-block-start: 0;
 	}
 </style>

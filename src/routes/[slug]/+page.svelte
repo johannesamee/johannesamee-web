@@ -52,4 +52,8 @@
 		padding: var(--size-2) var(--size-3);
 		border-radius: var(--radius-round);
 	}
+
+	blockquote p {
+		margin-block-start: 0;
+	}
 </style>

@@ -1,5 +1,5 @@
 ---
-title: First post
+title: First Page
 description: First post.
 date: '2023-4-14'
 categories:

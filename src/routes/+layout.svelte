@@ -18,6 +18,17 @@
 		<PageTransition url={data.url}>
 			<slot />
 		</PageTransition>
+		<div class="card">
+			<h5>Collected webs</h5>
+			<section>
+				<a href="https://www.wakingup.com/" target="_blank">Waking Up</a><br />
+				<small>A New Operating System for Your Mind</small>
+			</section>
+			<section>
+				<a href="https://fortelabs.com/" target="_blank">Forte Labs</a><br />
+				<small>What's Your Productivity Potential?</small>
+			</section>
+		</div>
 	</main>
 
 	<Footer />
@@ -26,7 +37,7 @@
 <style>
 	.layout {
 		height: 100%;
-		max-inline-size: 1440px;
+		max-inline-size: 1024px;
 		display: grid;
 		grid-template-rows: auto 1fr auto;
 		margin-inline: auto;
@@ -35,9 +46,27 @@
 
 	main {
 		padding-block: var(--size-9);
+		display: grid;
+		grid-template-columns: 1fr 256px;
+		gap: 64px;
+	}
+	.card {
+		flex-basis: var(--size-content-1);
+		display: flex;
+		align-self: start;
+		flex-direction: column;
+		gap: var(--size-2);
+		background: var(--surface-3);
+		border: 1px solid var(--surface-1);
+		padding: var(--size-4);
+		border-radius: var(--radius-3);
 	}
 
-	@media (min-width: 1440px) {
+	.card > h5 {
+		line-height: var(--font-lineheight-1);
+	}
+
+	@media (min-width: 1024px) {
 		.layout {
 			padding-inline: 0;
 		}

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Toggle from './toggle.svelte'
 	import * as config from '$lib/config'
+
+	import { Rss, Info, CircleUser } from 'lucide-svelte'
 </script>
 
 <nav>
@@ -10,13 +12,22 @@
 
 	<ul class="links">
 		<li>
-			<a href="/about">About</a>
+			<a href="/about">
+				<Info />
+				<span>About</span>
+			</a>
 		</li>
 		<li>
-			<a href="/contact">Contact</a>
+			<a href="/contact">
+				<CircleUser />
+				<span>Contact</span>
+			</a>
 		</li>
 		<li>
-			<a href="/rss.xml" target="_blank">RSS</a>
+			<a href="/rss.xml" target="_blank">
+				<Rss />
+				<span>RSS</span>
+			</a>
 		</li>
 	</ul>
 
@@ -35,6 +46,12 @@
 	a {
 		color: inherit;
 		text-decoration: none;
+	}
+
+	.links li a {
+		display: flex;
+		align-content: center;
+		gap: var(--size-2);
 	}
 
 	@media (min-width: 768px) {

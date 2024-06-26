@@ -1,7 +1,7 @@
 import { c as create_ssr_component, v as validate_component } from "./ssr.js";
 import { M as Mdsvex } from "./mdsvex.js";
 const metadata = {
-  "title": "First post",
+  "title": "First Page",
   "description": "First post.",
   "date": "2023-4-14",
   "categories": ["sveltekit", "svelte"],

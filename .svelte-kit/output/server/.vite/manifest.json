@@ -187,7 +187,7 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.Dg7pkPPR.css"
+      "_app/immutable/assets/_layout.DIdcjDk7.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
@@ -229,7 +229,7 @@
       "_config.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.BGaztm0e.css"
+      "_app/immutable/assets/_page.C2SaOotu.css"
     ]
   },
   "src/routes/+page.ts": {
@@ -246,7 +246,7 @@
       "_utils.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.gOD4MmU6.css"
+      "_app/immutable/assets/_page.DkO_iKro.css"
     ]
   },
   "src/routes/[slug]/+page.ts": {
