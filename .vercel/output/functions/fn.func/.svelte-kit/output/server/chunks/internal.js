@@ -135,7 +135,7 @@ const options = {
         <meta property="og:type" content="website">
         <meta property="og:title" content="Johannes Amée Björkdahl Web">
         <meta property="og:description" content="Exploring web development, LLMs, and other engaging topics. Follow along for insights, updates, and creative experiments.">
-        <meta property="og:image" content="./gradient-preview-png.png">
+        <meta property="og:image" content="https://www.johannesamee.com/gradient-preview-png.png">
 
         <!-- Twitter Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
@@ -143,7 +143,7 @@ const options = {
         <meta property="twitter:url" content="https://www.johannesamee.com/">
         <meta name="twitter:title" content="Johannes Amée Björkdahl Web">
         <meta name="twitter:description" content="Exploring web development, LLMs, and other engaging topics. Follow along for insights, updates, and creative experiments.">
-        <meta name="twitter:image" content="./gradient-preview-png.png">
+        <meta name="twitter:image" content="https://www.johannesamee.com/gradient-preview-png.png">
 
         <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
@@ -226,7 +226,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1qaw48v"
+  version_hash: "18by7a1"
 };
 async function get_hooks() {
   return {};
