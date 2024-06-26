@@ -10,7 +10,7 @@ const __variableDynamicImportRuntimeHelper = (glob, path) => {
 };
 async function load({ params }) {
   try {
-    const post = await __variableDynamicImportRuntimeHelper(/* @__PURE__ */ Object.assign({ "../../posts/first-post.md": () => import("../../../chunks/first-post.js").then((n) => n._), "../../posts/new-domain.md": () => import("../../../chunks/new-domain.js").then((n) => n._), "../../posts/second-post.md": () => import("../../../chunks/second-post.js").then((n) => n._), "../../posts/svelte-vercel-project.md": () => import("../../../chunks/svelte-vercel-project.js").then((n) => n._) }), `../../posts/${params.slug}.md`);
+    const post = await __variableDynamicImportRuntimeHelper(/* @__PURE__ */ Object.assign({ "../../posts/1-first-post.md": () => import("../../../chunks/1-first-post.js").then((n) => n._), "../../posts/2-second-post.md": () => import("../../../chunks/2-second-post.js").then((n) => n._), "../../posts/3-svelte-vercel-project.md": () => import("../../../chunks/3-svelte-vercel-project.js").then((n) => n._), "../../posts/4-new-domain.md": () => import("../../../chunks/4-new-domain.js").then((n) => n._) }), `../../posts/${params.slug}.md`);
     return {
       content: post.default,
       meta: post.metadata

@@ -7,6 +7,44 @@
       "_internal.js"
     ]
   },
+  "_1-first-post.js": {
+    "file": "chunks/1-first-post.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
+  "_2-second-post.js": {
+    "file": "chunks/2-second-post.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
+  "_3-svelte-vercel-project.js": {
+    "file": "chunks/3-svelte-vercel-project.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
+  "_4-new-domain.js": {
+    "file": "chunks/4-new-domain.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
+  "_Icon.js": {
+    "file": "chunks/Icon.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
   "_client.js": {
     "file": "chunks/client.js",
     "imports": [
@@ -18,14 +56,6 @@
   },
   "_exports.js": {
     "file": "chunks/exports.js"
-  },
-  "_first-post.js": {
-    "file": "chunks/first-post.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_mdsvex.js"
-    ]
   },
   "_index.js": {
     "file": "chunks/index.js",
@@ -48,31 +78,14 @@
       "_ssr.js"
     ]
   },
-  "_new-domain.js": {
-    "file": "chunks/new-domain.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_mdsvex.js"
-    ]
-  },
-  "_second-post.js": {
-    "file": "chunks/second-post.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_mdsvex.js"
-    ]
-  },
   "_ssr.js": {
     "file": "chunks/ssr.js"
   },
-  "_svelte-vercel-project.js": {
-    "file": "chunks/svelte-vercel-project.js",
-    "isDynamicEntry": true,
+  "_stores.js": {
+    "file": "chunks/stores.js",
     "imports": [
       "_ssr.js",
-      "_mdsvex.js"
+      "_client.js"
     ]
   },
   "_utils.js": {
@@ -171,7 +184,7 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_client.js"
+      "_stores.js"
     ],
     "css": [
       "_app/immutable/assets/_error.COZ97Kw5.css"
@@ -184,10 +197,12 @@
     "imports": [
       "_ssr.js",
       "_config.js",
-      "_index.js"
+      "_index.js",
+      "_Icon.js",
+      "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.DIdcjDk7.css"
+      "_app/immutable/assets/_layout.CxSiVmU_.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
@@ -226,10 +241,11 @@
     "imports": [
       "_ssr.js",
       "_utils.js",
-      "_config.js"
+      "_config.js",
+      "_Icon.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.C2SaOotu.css"
+      "_app/immutable/assets/_page.DQLdGVDj.css"
     ]
   },
   "src/routes/+page.ts": {
@@ -246,7 +262,7 @@
       "_utils.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DkO_iKro.css"
+      "_app/immutable/assets/_page.DQZcbqLf.css"
     ]
   },
   "src/routes/[slug]/+page.ts": {
@@ -257,10 +273,10 @@
       "_index2.js"
     ],
     "dynamicImports": [
-      "_first-post.js",
-      "_new-domain.js",
-      "_second-post.js",
-      "_svelte-vercel-project.js"
+      "_1-first-post.js",
+      "_2-second-post.js",
+      "_3-svelte-vercel-project.js",
+      "_4-new-domain.js"
     ]
   },
   "src/routes/about/+page.svelte": {
@@ -276,10 +292,10 @@
     "src": "src/routes/api/posts/+server.ts",
     "isEntry": true,
     "imports": [
-      "_first-post.js",
-      "_new-domain.js",
-      "_second-post.js",
-      "_svelte-vercel-project.js",
+      "_1-first-post.js",
+      "_2-second-post.js",
+      "_3-svelte-vercel-project.js",
+      "_4-new-domain.js",
       "_index2.js"
     ]
   },

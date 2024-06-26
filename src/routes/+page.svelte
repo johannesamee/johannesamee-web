@@ -2,6 +2,8 @@
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
 
+	import { CalendarDays } from 'lucide-svelte'
+
 	export let data
 </script>
 
@@ -14,7 +16,7 @@
 		{#each data.posts as post}
 			<li class="post">
 				<a href={post.slug} class="title">{post.title}</a>
-				<p class="date">{formatDate(post.date)}</p>
+				<p class="date"><CalendarDays />{formatDate(post.date)}</p>
 				<p class="description">{post.description}</p>
 			</li>
 		{/each}
@@ -49,7 +51,9 @@
 		margin-top: var(--size-3);
 	}
 
-	blockquote p {
-		margin-block-start: 0;
+	li p {
+		display: flex;
+		align-content: center;
+		gap: var(--size-2);
 	}
 </style>

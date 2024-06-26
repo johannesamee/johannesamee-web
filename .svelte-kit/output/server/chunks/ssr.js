@@ -30,6 +30,9 @@ function compute_rest_props(props, keys) {
       rest[k] = props[k];
   return rest;
 }
+function null_to_empty(value) {
+  return value == null ? "" : value;
+}
 let current_component;
 function set_current_component(component) {
   current_component = component;
@@ -234,19 +237,20 @@ function style_object_to_string(style_object) {
   return Object.keys(style_object).filter((key) => style_object[key]).map((key) => `${key}: ${escape_attribute_value(style_object[key])};`).join(" ");
 }
 export {
-  compute_rest_props as a,
-  spread as b,
+  subscribe as a,
+  noop as b,
   create_ssr_component as c,
-  escape_object as d,
+  safe_not_equal as d,
   escape as e,
-  escape_attribute_value as f,
-  each as g,
-  subscribe as h,
-  safe_not_equal as i,
-  getContext as j,
-  add_attribute as k,
+  each as f,
+  getContext as g,
+  add_attribute as h,
+  compute_rest_props as i,
+  spread as j,
+  escape_object as k,
+  escape_attribute_value as l,
   missing_component as m,
-  noop as n,
+  null_to_empty as n,
   setContext as s,
   validate_component as v
 };

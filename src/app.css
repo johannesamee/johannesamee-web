@@ -156,12 +156,33 @@ li {
     padding-inline-start: var(--size-2);
 }
 
+blockquote,
+li {
+    max-inline-size: unset;
+}
+
+.prose blockquote :is(h1, h2, h3, h4, h5) {
+    margin-block: 0;
+}
+
+:is(h1, h2, h3, h4, h5)+blockquote {
+    padding-block-start: 0;
+}
+
 .prose pre {
     max-inline-size: 100%;
     padding: var(--size-3);
     border-radius: 8px;
     tab-size: 2;
 }
+
+/* Limit font sizes on post pages if md file accidentally includes # or ## */
+.prose h1,
+.prose h2 {
+    font-size: var(--font-size-5);
+}
+
+.prose h1 {}
 
 .prose .contains-task-list {
     padding-left: 0;

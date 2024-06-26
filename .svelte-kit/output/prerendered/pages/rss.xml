@@ -8,32 +8,32 @@
 						<item>
 							<title>New Domain johannesamee.com</title>
 							<description>Testing deployments to new domain via vercel</description>
-							<link>https://johannesamee-web.vercel.app//new-domain</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//new-domain</guid>
+							<link>https://johannesamee-web.vercel.app//4-new-domain</link>
+							<guid isPermaLink="true">https://johannesamee-web.vercel.app//4-new-domain</guid>
 							<pubDate>Sun, 25 Jun 2023 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>Svelte+Vercel Project</title>
 							<description>Export from a Bear Note to markdown. Example of a personal note kept during the making of this web.</description>
-							<link>https://johannesamee-web.vercel.app//svelte-vercel-project</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//svelte-vercel-project</guid>
-							<pubDate>Sun, 25 Jun 2023 22:00:00 GMT</pubDate>
+							<link>https://johannesamee-web.vercel.app//3-svelte-vercel-project</link>
+							<guid isPermaLink="true">https://johannesamee-web.vercel.app//3-svelte-vercel-project</guid>
+							<pubDate>Sat, 24 Jun 2023 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>Second Page</title>
 							<description>Second post on Johannes Amée Web. Example image with markdown format + some formatting.</description>
-							<link>https://johannesamee-web.vercel.app//second-post</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//second-post</guid>
+							<link>https://johannesamee-web.vercel.app//2-second-post</link>
+							<guid isPermaLink="true">https://johannesamee-web.vercel.app//2-second-post</guid>
 							<pubDate>Sat, 15 Apr 2023 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>First Page</title>
 							<description>First post.</description>
-							<link>https://johannesamee-web.vercel.app//first-post</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//first-post</guid>
+							<link>https://johannesamee-web.vercel.app//1-first-post</link>
+							<guid isPermaLink="true">https://johannesamee-web.vercel.app//1-first-post</guid>
 							<pubDate>Thu, 13 Apr 2023 22:00:00 GMT</pubDate>
 						</item>
 					

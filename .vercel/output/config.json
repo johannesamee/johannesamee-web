@@ -24,47 +24,47 @@
 			}
 		},
 		{
-			"src": "/new-domain",
-			"dest": "/new-domain/"
+			"src": "/4-new-domain",
+			"dest": "/4-new-domain/"
 		},
 		{
-			"src": "/new-domain/",
+			"src": "/4-new-domain/",
 			"status": 308,
 			"headers": {
-				"Location": "/new-domain"
+				"Location": "/4-new-domain"
 			}
 		},
 		{
-			"src": "/svelte-vercel-project",
-			"dest": "/svelte-vercel-project/"
+			"src": "/3-svelte-vercel-project",
+			"dest": "/3-svelte-vercel-project/"
 		},
 		{
-			"src": "/svelte-vercel-project/",
+			"src": "/3-svelte-vercel-project/",
 			"status": 308,
 			"headers": {
-				"Location": "/svelte-vercel-project"
+				"Location": "/3-svelte-vercel-project"
 			}
 		},
 		{
-			"src": "/second-post",
-			"dest": "/second-post/"
+			"src": "/2-second-post",
+			"dest": "/2-second-post/"
 		},
 		{
-			"src": "/second-post/",
+			"src": "/2-second-post/",
 			"status": 308,
 			"headers": {
-				"Location": "/second-post"
+				"Location": "/2-second-post"
 			}
 		},
 		{
-			"src": "/first-post",
-			"dest": "/first-post/"
+			"src": "/1-first-post",
+			"dest": "/1-first-post/"
 		},
 		{
-			"src": "/first-post/",
+			"src": "/1-first-post/",
 			"status": 308,
 			"headers": {
-				"Location": "/first-post"
+				"Location": "/1-first-post"
 			}
 		},
 		{
@@ -91,17 +91,17 @@
 		"contact.html": {
 			"path": "contact"
 		},
-		"new-domain.html": {
-			"path": "new-domain"
+		"4-new-domain.html": {
+			"path": "4-new-domain"
 		},
-		"svelte-vercel-project.html": {
-			"path": "svelte-vercel-project"
+		"3-svelte-vercel-project.html": {
+			"path": "3-svelte-vercel-project"
 		},
-		"second-post.html": {
-			"path": "second-post"
+		"2-second-post.html": {
+			"path": "2-second-post"
 		},
-		"first-post.html": {
-			"path": "first-post"
+		"1-first-post.html": {
+			"path": "1-first-post"
 		}
 	}
 }
