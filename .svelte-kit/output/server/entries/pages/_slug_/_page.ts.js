@@ -10,7 +10,7 @@ const __variableDynamicImportRuntimeHelper = (glob, path) => {
 };
 async function load({ params }) {
   try {
-    const post = await __variableDynamicImportRuntimeHelper(/* @__PURE__ */ Object.assign({ "../../posts/first-post.md": () => import("../../../chunks/first-post.js").then((n) => n._), "../../posts/second-post.md": () => import("../../../chunks/second-post.js").then((n) => n._), "../../posts/svelte-vercel-project.md": () => import("../../../chunks/svelte-vercel-project.js").then((n) => n._) }), `../../posts/${params.slug}.md`);
+    const post = await __variableDynamicImportRuntimeHelper(/* @__PURE__ */ Object.assign({ "../../posts/first-post.md": () => import("../../../chunks/first-post.js").then((n) => n._), "../../posts/new-domain.md": () => import("../../../chunks/new-domain.js").then((n) => n._), "../../posts/second-post.md": () => import("../../../chunks/second-post.js").then((n) => n._), "../../posts/svelte-vercel-project.md": () => import("../../../chunks/svelte-vercel-project.js").then((n) => n._) }), `../../posts/${params.slug}.md`);
     return {
       content: post.default,
       meta: post.metadata

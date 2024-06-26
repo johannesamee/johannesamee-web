@@ -48,6 +48,14 @@
       "_ssr.js"
     ]
   },
+  "_new-domain.js": {
+    "file": "chunks/new-domain.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
   "_second-post.js": {
     "file": "chunks/second-post.js",
     "isDynamicEntry": true,
@@ -250,6 +258,7 @@
     ],
     "dynamicImports": [
       "_first-post.js",
+      "_new-domain.js",
       "_second-post.js",
       "_svelte-vercel-project.js"
     ]
@@ -268,6 +277,7 @@
     "isEntry": true,
     "imports": [
       "_first-post.js",
+      "_new-domain.js",
       "_second-post.js",
       "_svelte-vercel-project.js",
       "_index2.js"

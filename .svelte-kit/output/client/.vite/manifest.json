@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.BD_RnJQ8.js",
+    "file": "_app/immutable/entry/app.DDbWaIrY.js",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
     "imports": [
@@ -18,16 +18,16 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.DDvL892w.js",
+    "file": "_app/immutable/nodes/0.BQmmCKDc.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.CVTL0etF.js",
-      "_stores.Z9gzkbOv.js",
+      "_stores.alCdJpze.js",
       "_index.cpxQQXN5.js",
       "_config.DYj2o_NS.js",
-      "_entry.WF8Mcuep.js",
+      "_entry.Dyw7g71x.js",
       "_spread.CgU5AtxT.js",
       "_each.D6YF6ztN.js"
     ],
@@ -57,14 +57,14 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.CK7YHQfQ.js",
+    "file": "_app/immutable/nodes/1.9q8WY3Q3.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.CVTL0etF.js",
       "_index.cpxQQXN5.js",
-      "_stores.Z9gzkbOv.js"
+      "_stores.alCdJpze.js"
     ],
     "css": [
       "_app/immutable/assets/1.COZ97Kw5.css"
@@ -87,7 +87,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/3.js": {
-    "file": "_app/immutable/nodes/3.CiqI3Neg.js",
+    "file": "_app/immutable/nodes/3.DaFQKZHm.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -101,6 +101,7 @@
     ],
     "dynamicImports": [
       "src/posts/first-post.md",
+      "src/posts/new-domain.md",
       "src/posts/second-post.md",
       "src/posts/svelte-vercel-project.md"
     ],
@@ -137,8 +138,8 @@
   "_each.D6YF6ztN.js": {
     "file": "_app/immutable/chunks/each.D6YF6ztN.js"
   },
-  "_entry.WF8Mcuep.js": {
-    "file": "_app/immutable/chunks/entry.WF8Mcuep.js",
+  "_entry.Dyw7g71x.js": {
+    "file": "_app/immutable/chunks/entry.Dyw7g71x.js",
     "imports": [
       "_scheduler.CVTL0etF.js",
       "_control.CYgJF_JY.js"
@@ -166,10 +167,10 @@
   "_spread.CgU5AtxT.js": {
     "file": "_app/immutable/chunks/spread.CgU5AtxT.js"
   },
-  "_stores.Z9gzkbOv.js": {
-    "file": "_app/immutable/chunks/stores.Z9gzkbOv.js",
+  "_stores.alCdJpze.js": {
+    "file": "_app/immutable/chunks/stores.alCdJpze.js",
     "imports": [
-      "_entry.WF8Mcuep.js"
+      "_entry.Dyw7g71x.js"
     ]
   },
   "_utils.3InfNRpA.js": {
@@ -252,16 +253,27 @@
     "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff2"
   },
   "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.CUP-wHgV.js",
+    "file": "_app/immutable/entry/start.BRdPJxSM.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.WF8Mcuep.js"
+      "_entry.Dyw7g71x.js"
     ]
   },
   "src/posts/first-post.md": {
     "file": "_app/immutable/chunks/first-post.DVWm3y-h.js",
     "src": "src/posts/first-post.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.CVTL0etF.js",
+      "_index.cpxQQXN5.js",
+      "_spread.CgU5AtxT.js",
+      "_mdsvex.B4zrBQhT.js"
+    ]
+  },
+  "src/posts/new-domain.md": {
+    "file": "_app/immutable/chunks/new-domain.O34H8UnF.js",
+    "src": "src/posts/new-domain.md",
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.CVTL0etF.js",

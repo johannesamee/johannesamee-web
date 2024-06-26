@@ -16,11 +16,11 @@ I have an entire post on <strong>~<a href="https://joyofcode.xyz/sveltekit-page
     }
   })}`;
 });
-const __vite_glob_0_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: Svelte_vercel_project,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_2 as _
+  __vite_glob_0_3 as _
 };

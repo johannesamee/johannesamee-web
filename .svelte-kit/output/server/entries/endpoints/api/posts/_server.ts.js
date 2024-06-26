@@ -1,10 +1,11 @@
 import { _ as __vite_glob_0_0 } from "../../../../chunks/first-post.js";
-import { _ as __vite_glob_0_1 } from "../../../../chunks/second-post.js";
-import { _ as __vite_glob_0_2 } from "../../../../chunks/svelte-vercel-project.js";
+import { _ as __vite_glob_0_1 } from "../../../../chunks/new-domain.js";
+import { _ as __vite_glob_0_2 } from "../../../../chunks/second-post.js";
+import { _ as __vite_glob_0_3 } from "../../../../chunks/svelte-vercel-project.js";
 import { j as json } from "../../../../chunks/index2.js";
 async function getPosts() {
   let posts = [];
-  const paths = /* @__PURE__ */ Object.assign({ "/src/posts/first-post.md": __vite_glob_0_0, "/src/posts/second-post.md": __vite_glob_0_1, "/src/posts/svelte-vercel-project.md": __vite_glob_0_2 });
+  const paths = /* @__PURE__ */ Object.assign({ "/src/posts/first-post.md": __vite_glob_0_0, "/src/posts/new-domain.md": __vite_glob_0_1, "/src/posts/second-post.md": __vite_glob_0_2, "/src/posts/svelte-vercel-project.md": __vite_glob_0_3 });
   for (const path in paths) {
     const file = paths[path];
     const slug = path.split("/").at(-1)?.replace(".md", "");

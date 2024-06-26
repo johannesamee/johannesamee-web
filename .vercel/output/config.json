@@ -24,6 +24,17 @@
 			}
 		},
 		{
+			"src": "/new-domain",
+			"dest": "/new-domain/"
+		},
+		{
+			"src": "/new-domain/",
+			"status": 308,
+			"headers": {
+				"Location": "/new-domain"
+			}
+		},
+		{
 			"src": "/svelte-vercel-project",
 			"dest": "/svelte-vercel-project/"
 		},
@@ -79,6 +90,9 @@
 		},
 		"contact.html": {
 			"path": "contact"
+		},
+		"new-domain.html": {
+			"path": "new-domain"
 		},
 		"svelte-vercel-project.html": {
 			"path": "svelte-vercel-project"
