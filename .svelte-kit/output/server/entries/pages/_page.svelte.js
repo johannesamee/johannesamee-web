@@ -32,7 +32,7 @@ const Calendar_days = create_ssr_component(($$result, $$props, $$bindings, slots
 });
 const CalendarDays = Calendar_days;
 const css = {
-  code: ".posts.svelte-myyctz.svelte-myyctz{display:grid;gap:var(--size-7)}.post.svelte-myyctz.svelte-myyctz{max-inline-size:var(--size-content-3)}.post.svelte-myyctz.svelte-myyctz:not(:last-child){border-bottom:1px solid var(--border);padding-bottom:var(--size-7)}.title.svelte-myyctz.svelte-myyctz{font-size:var(--font-size-fluid-2)}.date.svelte-myyctz.svelte-myyctz{color:var(--text-2)}.description.svelte-myyctz.svelte-myyctz{margin-top:var(--size-3)}li.svelte-myyctz p.svelte-myyctz{display:flex;align-content:center;gap:var(--size-2)}",
+  code: ".posts.svelte-1dlxp6h.svelte-1dlxp6h{display:grid;gap:var(--size-3)}.post.svelte-1dlxp6h.svelte-1dlxp6h{max-inline-size:var(--size-content-3)}.post.svelte-1dlxp6h p.svelte-1dlxp6h{margin-block-start:var(--size-1)}.post.svelte-1dlxp6h.svelte-1dlxp6h:not(:last-child){border-bottom:1px solid var(--border);padding-bottom:var(--size-2)}.title.svelte-1dlxp6h.svelte-1dlxp6h{font-size:var(--font-size-fluid-1)}.date.svelte-1dlxp6h.svelte-1dlxp6h{color:var(--text-2)}.description.svelte-1dlxp6h.svelte-1dlxp6h{margin-top:var(--size-3)}li.svelte-1dlxp6h p.svelte-1dlxp6h{display:flex;align-content:center;gap:var(--size-2)}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -40,8 +40,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.data === void 0 && $$bindings.data && data !== void 0)
     $$bindings.data(data);
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-fbczdu_START -->${$$result.title = `<title>${escape(title)}</title>`, ""}<!-- HEAD_svelte-fbczdu_END -->`, ""} <section><ul class="posts svelte-myyctz">${each(data.posts, (post) => {
-    return `<li class="post svelte-myyctz"><a${add_attribute("href", post.slug, 0)} class="title svelte-myyctz">${escape(post.title)}</a> <p class="date svelte-myyctz">${validate_component(CalendarDays, "CalendarDays").$$render($$result, {}, {}, {})}${escape(formatDate(post.date))}</p> <p class="description svelte-myyctz">${escape(post.description)}</p> </li>`;
+  return `${$$result.head += `<!-- HEAD_svelte-fbczdu_START -->${$$result.title = `<title>${escape(title)}</title>`, ""}<!-- HEAD_svelte-fbczdu_END -->`, ""} <section><ul class="posts svelte-1dlxp6h">${each(data.posts, (post) => {
+    return `<li class="post svelte-1dlxp6h"><a${add_attribute("href", post.slug, 0)} class="title svelte-1dlxp6h">${escape(post.title)}</a> <p class="date svelte-1dlxp6h">${validate_component(CalendarDays, "CalendarDays").$$render($$result, {}, {}, {})}${escape(formatDate(post.date))}</p> <p class="description svelte-1dlxp6h">${escape(post.description)}</p> </li>`;
   })}</ul> </section>`;
 });
 export {

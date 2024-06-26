@@ -35,6 +35,17 @@
 			}
 		},
 		{
+			"src": "/5-color-gradients",
+			"dest": "/5-color-gradients/"
+		},
+		{
+			"src": "/5-color-gradients/",
+			"status": 308,
+			"headers": {
+				"Location": "/5-color-gradients"
+			}
+		},
+		{
 			"src": "/3-svelte-vercel-project",
 			"dest": "/3-svelte-vercel-project/"
 		},
@@ -93,6 +104,9 @@
 		},
 		"4-new-domain.html": {
 			"path": "4-new-domain"
+		},
+		"5-color-gradients.html": {
+			"path": "5-color-gradients"
 		},
 		"3-svelte-vercel-project.html": {
 			"path": "3-svelte-vercel-project"

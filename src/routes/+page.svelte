@@ -26,21 +26,24 @@
 <style>
 	.posts {
 		display: grid;
-		gap: var(--size-7);
+		gap: var(--size-3);
 	}
 
 	.post {
 		max-inline-size: var(--size-content-3);
 	}
 
+	.post p {
+		margin-block-start: var(--size-1);
+	}
+
 	.post:not(:last-child) {
 		border-bottom: 1px solid var(--border);
-		padding-bottom: var(--size-7);
+		padding-bottom: var(--size-2);
 	}
 
 	.title {
-		font-size: var(--font-size-fluid-2);
-		/* text-transform: capitalize; */
+		font-size: var(--font-size-fluid-1);
 	}
 
 	.date {

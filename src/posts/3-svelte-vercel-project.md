@@ -1,7 +1,7 @@
 ---
-title: Svelte+Vercel Project
+title: Svelte Web with Markdown Processor
 description: Export from a Bear Note to markdown. Example of a personal note kept during the making of this web.
-date: '2023-6-25'
+date: '2024-6-25'
 categories:
   - sveltekit
   - svelte

@@ -6,35 +6,43 @@
 				<atom:link href="https://johannesamee-web.vercel.app//rss.xml" rel="self" type="application/rss+xml"/>
 				
 						<item>
-							<title>New Domain johannesamee.com</title>
-							<description>Testing deployments to new domain via vercel</description>
+							<title>New Domain, www.johannesamee.com</title>
+							<description>Deploying to the new domain via vercel.</description>
 							<link>https://johannesamee-web.vercel.app//4-new-domain</link>
 							<guid isPermaLink="true">https://johannesamee-web.vercel.app//4-new-domain</guid>
-							<pubDate>Sun, 25 Jun 2023 22:00:00 GMT</pubDate>
+							<pubDate>Tue, 25 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
-							<title>Svelte+Vercel Project</title>
+							<title>Color Gradients and Noise Experiments</title>
+							<description>Tesing the color gradient and noise settings from open-props.</description>
+							<link>https://johannesamee-web.vercel.app//5-color-gradients</link>
+							<guid isPermaLink="true">https://johannesamee-web.vercel.app//5-color-gradients</guid>
+							<pubDate>Tue, 25 Jun 2024 22:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Svelte Web with Markdown Processor</title>
 							<description>Export from a Bear Note to markdown. Example of a personal note kept during the making of this web.</description>
 							<link>https://johannesamee-web.vercel.app//3-svelte-vercel-project</link>
 							<guid isPermaLink="true">https://johannesamee-web.vercel.app//3-svelte-vercel-project</guid>
-							<pubDate>Sat, 24 Jun 2023 22:00:00 GMT</pubDate>
+							<pubDate>Mon, 24 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
-							<title>Second Page</title>
+							<title>Second Markdown Page</title>
 							<description>Second post on Johannes Amée Web. Example image with markdown format + some formatting.</description>
 							<link>https://johannesamee-web.vercel.app//2-second-post</link>
 							<guid isPermaLink="true">https://johannesamee-web.vercel.app//2-second-post</guid>
-							<pubDate>Sat, 15 Apr 2023 22:00:00 GMT</pubDate>
+							<pubDate>Sun, 23 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
-							<title>First Page</title>
-							<description>First post.</description>
+							<title>First Markdown Page</title>
+							<description>First md file upload, testing markdown processor and code syntax.</description>
 							<link>https://johannesamee-web.vercel.app//1-first-post</link>
 							<guid isPermaLink="true">https://johannesamee-web.vercel.app//1-first-post</guid>
-							<pubDate>Thu, 13 Apr 2023 22:00:00 GMT</pubDate>
+							<pubDate>Sat, 22 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 			</channel>

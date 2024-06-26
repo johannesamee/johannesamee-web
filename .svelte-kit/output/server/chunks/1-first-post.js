@@ -1,9 +1,9 @@
 import { c as create_ssr_component, v as validate_component } from "./ssr.js";
 import { M as Mdsvex } from "./mdsvex.js";
 const metadata = {
-  "title": "First Page",
-  "description": "First post.",
-  "date": "2023-4-14",
+  "title": "First Markdown Page",
+  "description": "First md file upload, testing markdown processor and code syntax.",
+  "date": "2024-6-23",
   "categories": ["sveltekit", "svelte"],
   "published": true
 };

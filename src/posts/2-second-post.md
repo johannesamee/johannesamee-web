@@ -1,7 +1,7 @@
 ---
-title: Second Page
+title: Second Markdown Page
 description: Second post on Johannes Amée Web. Example image with markdown format + some formatting.
-date: '2023-4-16'
+date: '2024-6-24'
 categories:
   - sveltekit
   - svelte

@@ -39,6 +39,17 @@
       "_mdsvex.js"
     ]
   },
+  "_5-color-gradients.js": {
+    "file": "chunks/5-color-gradients.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ],
+    "css": [
+      "_app/immutable/assets/5-color-gradients.XcxsVOPI.css"
+    ]
+  },
   "_Icon.js": {
     "file": "chunks/Icon.js",
     "imports": [
@@ -202,7 +213,7 @@
       "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.CxSiVmU_.css"
+      "_app/immutable/assets/_layout.0BV0GqyU.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
@@ -245,7 +256,7 @@
       "_Icon.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DQLdGVDj.css"
+      "_app/immutable/assets/_page.Ps3lyohq.css"
     ]
   },
   "src/routes/+page.ts": {
@@ -276,7 +287,8 @@
       "_1-first-post.js",
       "_2-second-post.js",
       "_3-svelte-vercel-project.js",
-      "_4-new-domain.js"
+      "_4-new-domain.js",
+      "_5-color-gradients.js"
     ]
   },
   "src/routes/about/+page.svelte": {
@@ -296,6 +308,7 @@
       "_2-second-post.js",
       "_3-svelte-vercel-project.js",
       "_4-new-domain.js",
+      "_5-color-gradients.js",
       "_index2.js"
     ]
   },

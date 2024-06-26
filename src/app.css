@@ -172,6 +172,7 @@ li {
 .prose pre {
     max-inline-size: 100%;
     padding: var(--size-3);
+    margin-block-start: var(--size-2);
     border-radius: 8px;
     tab-size: 2;
 }
