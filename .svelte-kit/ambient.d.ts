@@ -67,7 +67,6 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__typescript_eslint_parser: string;
 	export const PATH: string;
 	export const MAIL: string;
-	export const npm_package_dependencies_open_props: string;
 	export const npm_config_engine_strict: string;
 	export const npm_package_devDependencies_tailwindcss: string;
 	export const npm_command: string;
@@ -82,6 +81,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_eslint_config_prettier: string;
 	export const npm_config_node_gyp: string;
 	export const npm_package_devDependencies_autoprefixer: string;
+	export const npm_package_devDependencies_daisyui: string;
 	export const npm_package_devDependencies_svelte_check: string;
 	export const HOME: string;
 	export const SUDO_COMMAND: string;
@@ -93,9 +93,7 @@ declare module '$env/static/private' {
 	export const npm_package_scripts_format: string;
 	export const npm_lifecycle_script: string;
 	export const LC_CTYPE: string;
-	export const npm_package_devDependencies__melt_ui_svelte: string;
 	export const npm_config_user_agent: string;
-	export const npm_package_devDependencies__melt_ui_pp: string;
 	export const SUDO_GID: string;
 	export const npm_package_dependencies_remark_unwrap_images: string;
 	export const npm_package_dependencies_shiki: string;
@@ -176,7 +174,6 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__typescript_eslint_parser: string;
 		PATH: string;
 		MAIL: string;
-		npm_package_dependencies_open_props: string;
 		npm_config_engine_strict: string;
 		npm_package_devDependencies_tailwindcss: string;
 		npm_command: string;
@@ -191,6 +188,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_eslint_config_prettier: string;
 		npm_config_node_gyp: string;
 		npm_package_devDependencies_autoprefixer: string;
+		npm_package_devDependencies_daisyui: string;
 		npm_package_devDependencies_svelte_check: string;
 		HOME: string;
 		SUDO_COMMAND: string;
@@ -202,9 +200,7 @@ declare module '$env/dynamic/private' {
 		npm_package_scripts_format: string;
 		npm_lifecycle_script: string;
 		LC_CTYPE: string;
-		npm_package_devDependencies__melt_ui_svelte: string;
 		npm_config_user_agent: string;
-		npm_package_devDependencies__melt_ui_pp: string;
 		SUDO_GID: string;
 		npm_package_dependencies_remark_unwrap_images: string;
 		npm_package_dependencies_shiki: string;

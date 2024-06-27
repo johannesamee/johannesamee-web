@@ -1,6 +1,6 @@
 import { c as create_ssr_component } from "../../../chunks/ssr.js";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<h1 data-svelte-h="svelte-soqi9t">About</h1>`;
+  return `<article class="prose lg:prose-xl" data-svelte-h="svelte-1dv9vp4"><h1>About</h1> </article>`;
 });
 export {
   Page as default

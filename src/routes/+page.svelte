@@ -4,59 +4,38 @@
 
 	import { CalendarDays } from 'lucide-svelte'
 
+	import { page } from '$app/stores'
+
 	export let data
+
+	$: isMainPage = $page.url.pathname === '/'
 </script>
 
 <svelte:head>
 	<title>{config.title}</title>
 </svelte:head>
 
-<section>
-	<ul class="posts">
+<section class="grid grid-cols-4">
+	<ul class="posts col-span-3 mr-16">
 		{#each data.posts as post}
-			<li class="post">
+			<article class="post">
 				<a href={post.slug} class="title">{post.title}</a>
 				<p class="date"><CalendarDays />{formatDate(post.date)}</p>
 				<p class="description">{post.description}</p>
-			</li>
+			</article>
 		{/each}
 	</ul>
+	{#if isMainPage}
+		<div class="card bg-base-100 w-fit h-fit glass prose prose-a:underline">
+			<div class="card-body">
+				<h2 class="card-title">Collected Webs</h2>
+				<span><a href="https://www.wakingup.com/" target="_blank">Waking Up</a>, by Sam Harris</span
+				>
+				<span><a href="https://fortelabs.com/" target="_blank">Forte Labs</a>, by Tiago Forte</span>
+			</div>
+		</div>
+	{/if}
 </section>
 
 <style>
-	.posts {
-		display: grid;
-		gap: var(--size-3);
-	}
-
-	.post {
-		max-inline-size: var(--size-content-3);
-	}
-
-	.post p {
-		margin-block-start: var(--size-1);
-	}
-
-	.post:not(:last-child) {
-		border-bottom: 1px solid var(--border);
-		padding-bottom: var(--size-2);
-	}
-
-	.title {
-		font-size: var(--font-size-fluid-1);
-	}
-
-	.date {
-		color: var(--text-2);
-	}
-
-	.description {
-		margin-top: var(--size-3);
-	}
-
-	li p {
-		display: flex;
-		align-content: center;
-		gap: var(--size-2);
-	}
 </style>

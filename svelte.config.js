@@ -7,37 +7,34 @@ import remarkUnwrapImages from 'remark-unwrap-images'
 import remarkToc from 'remark-toc'
 import rehypeSlug from 'rehype-slug'
 
-import { preprocessMeltUI, sequence } from '@melt-ui/pp'
-
-
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
-	extensions: ['.md'],
-	layout: {
-		_: './src/mdsvex.svelte'
-	},
-	highlight: {
-		highlighter: async (code, lang = 'text') => {
-			const highlighter = await getHighlighter({
-				themes: ['poimandres'],
-				langs: ['javascript', 'typescript', 'css']
-			})
-			await highlighter.loadLanguage('javascript', 'typescript', 'css')
-			const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'poimandres' }))
-			return `{@html \`${html}\` }`
-		}
-	},
-	remarkPlugins: [remarkUnwrapImages, [remarkToc, { tight: true }]],
-	rehypePlugins: [rehypeSlug]
+  extensions: ['.md'],
+  layout: {
+    _: './src/mdsvex.svelte'
+  },
+  highlight: {
+    highlighter: async (code, lang = 'text') => {
+      const highlighter = await getHighlighter({
+        themes: ['poimandres'],
+        langs: ['javascript', 'typescript', 'css']
+      })
+      await highlighter.loadLanguage('javascript', 'typescript', 'css')
+      const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'poimandres' }))
+      return `{@html \`${html}\` }`
+    }
+  },
+  remarkPlugins: [remarkUnwrapImages, [remarkToc, { tight: true }]],
+  rehypePlugins: [rehypeSlug]
 }
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', '.md'],
-	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions),preprocessMeltUI()],
-	kit: {
-		adapter: adapter()
-	}
+  extensions: ['.svelte', '.md'],
+  preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
+  kit: {
+    adapter: adapter()
+  }
 }
 
 export default config

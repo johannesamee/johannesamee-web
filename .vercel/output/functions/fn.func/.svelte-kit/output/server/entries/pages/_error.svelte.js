@@ -1,4 +1,4 @@
-import { c as create_ssr_component, a as subscribe, e as escape } from "../../chunks/ssr.js";
+import { c as create_ssr_component, b as subscribe, e as escape } from "../../chunks/ssr.js";
 import { p as page } from "../../chunks/stores.js";
 const css = {
   code: ".error.svelte-2l8l59{height:100%;display:grid;place-content:center}",

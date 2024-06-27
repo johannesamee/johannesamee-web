@@ -6,7 +6,35 @@
 </script>
 
 <nav>
-	<a href="/" class="title">
+	<div class="navbar px-0 bg-base-100 mb-8 z-10">
+		<div class="avatar">
+			<div class="w-12 rounded-full">
+				<img
+					src="https://media.licdn.com/dms/image/D4D03AQEXI0MHYf3fQA/profile-displayphoto-shrink_800_800/0/1710513333483?e=1724889600&v=beta&t=Da52QVeoZ8fdB5Ch-5WrqVHyAyMmG5S2VfdOVFNIxds"
+					alt="Linkedin Profile Picture"
+				/>
+			</div>
+		</div>
+		<div class="flex-1">
+			<a href="/" class="btn btn-ghost text-xl">{config.title}</a>
+		</div>
+		<div class="flex-none">
+			<ul class="menu menu-horizontal px-1">
+				<li><a href="/rss.xml" target="_blank">RSS</a></li>
+				<li>
+					<details>
+						<summary>More</summary>
+						<ul class="bg-base-100 rounded-t-none p-2">
+							<li><a href="/about">About</a></li>
+							<li><a href="/contact">Contact</a></li>
+						</ul>
+					</details>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- <a href="/" class="title">
 		<b>{config.title}</b>
 	</a>
 
@@ -31,7 +59,7 @@
 		</li>
 	</ul>
 
-	<Toggle />
+	<Toggle /> -->
 </nav>
 
 <style>

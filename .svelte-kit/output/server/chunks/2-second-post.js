@@ -1,4 +1,4 @@
-import { c as create_ssr_component, h as add_attribute, e as escape, v as validate_component } from "./ssr.js";
+import { c as create_ssr_component, f as add_attribute, e as escape, v as validate_component } from "./ssr.js";
 import { M as Mdsvex } from "./mdsvex.js";
 const Img = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { src } = $$props;

@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, h as add_attribute, f as each, v as validate_component, m as missing_component } from "../../../chunks/ssr.js";
+import { c as create_ssr_component, e as escape, f as add_attribute, d as each, v as validate_component, m as missing_component } from "../../../chunks/ssr.js";
 import { f as formatDate } from "../../../chunks/utils.js";
 const css = {
   code: "article.svelte-1a0dk57.svelte-1a0dk57{max-inline-size:var(--size-content-3)}h1.svelte-1a0dk57.svelte-1a0dk57{text-transform:capitalize;font-size:var(--font-size-fluid-2)}h1.svelte-1a0dk57+p.svelte-1a0dk57{margin-top:var(--size-2);color:var(--text-2)}.tags.svelte-1a0dk57.svelte-1a0dk57{display:flex;gap:var(--size-1);margin-top:var(--size-1)}.tags.svelte-1a0dk57>.svelte-1a0dk57{padding:var(--size-1) var(--size-2);border-radius:var(--radius-round)}",
