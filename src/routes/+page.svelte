@@ -14,7 +14,7 @@
 <svelte:head>
 	<title>{config.title}</title>
 </svelte:head>
-<section class="grid grid-cols-[1fr_256px] gap-16">
+<section class="grid grid-cols-[1fr_256px] gap-16 max-w-screen-lg">
 	<div class="prose lg:prose-xl prose-headings:mb-1 prose-p:mt-1 col-span-full">
 		<h1>Notebook</h1>
 		<p>Ideas, notes and whatever else Johannes publish.</p>

@@ -10,7 +10,7 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="col-span-full">
+<article class="col-span-full max-w-screen-sm">
 	<!-- <hgroup>
 		<h1>{data.meta.title}</h1>
 		<p>Published at {formatDate(data.meta.date)}</p>
