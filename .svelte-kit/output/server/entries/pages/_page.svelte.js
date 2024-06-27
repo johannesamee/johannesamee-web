@@ -1,5 +1,4 @@
 import { c as create_ssr_component, v as validate_component, b as subscribe, e as escape, d as each, f as add_attribute } from "../../chunks/ssr.js";
-import { f as formatDate } from "../../chunks/utils.js";
 import { t as title } from "../../chunks/config.js";
 import { p as page } from "../../chunks/stores.js";
 import { I as Icon } from "../../chunks/Icon.js";
@@ -32,6 +31,10 @@ const Calendar_days = create_ssr_component(($$result, $$props, $$bindings, slots
   })}`;
 });
 const CalendarDays = Calendar_days;
+function formatDate(date, dateStyle = "medium", locales = "en") {
+  const formatter = new Intl.DateTimeFormat(locales, { dateStyle });
+  return formatter.format(new Date(date));
+}
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let isMainPage;
   let $page, $$unsubscribe_page;
@@ -41,9 +44,9 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.data(data);
   isMainPage = $page.url.pathname === "/";
   $$unsubscribe_page();
-  return `${$$result.head += `<!-- HEAD_svelte-fbczdu_START -->${$$result.title = `<title>${escape(title)}</title>`, ""}<!-- HEAD_svelte-fbczdu_END -->`, ""} <section class="grid grid-cols-4"><ul class="posts col-span-3 mr-16">${each(data.posts, (post) => {
-    return `<article class="post"><a${add_attribute("href", post.slug, 0)} class="title">${escape(post.title)}</a> <p class="date">${validate_component(CalendarDays, "CalendarDays").$$render($$result, {}, {}, {})}${escape(formatDate(post.date))}</p> <p class="description">${escape(post.description)}</p> </article>`;
-  })}</ul> ${isMainPage ? `<div class="card bg-base-100 w-fit h-fit glass prose prose-a:underline" data-svelte-h="svelte-5l2cq"><div class="card-body"><h2 class="card-title">Collected Webs</h2> <span><a href="https://www.wakingup.com/" target="_blank">Waking Up</a>, by Sam Harris</span> <span><a href="https://fortelabs.com/" target="_blank">Forte Labs</a>, by Tiago Forte</span></div></div>` : ``} </section>`;
+  return `${$$result.head += `<!-- HEAD_svelte-fbczdu_START -->${$$result.title = `<title>${escape(title)}</title>`, ""}<!-- HEAD_svelte-fbczdu_END -->`, ""} <section class="grid grid-cols-[1fr_256px] gap-16"><div class="prose lg:prose-xl prose-headings:mb-1 prose-p:mt-1 col-span-full" data-svelte-h="svelte-18ltxwj"><h1>Notebook</h1> <p>Ideas, notes and whatever else Johannes publish.</p></div> <section class="col-span-1">${each(data.posts, (post) => {
+    return `<article class="my-2"><a class="flex text-accent-content font-bold"${add_attribute("href", post.slug, 0)}><header>${escape(post.title)}</header> <div class="flex gap-1 ml-auto text-secondary-content"><time${add_attribute("datetime", post.date, 0)}>${escape(formatDate(post.date))}</time> ${validate_component(CalendarDays, "CalendarDays").$$render($$result, {}, {}, {})} </div></a>  </article>`;
+  })}</section> ${isMainPage ? `<aside class="prose prose-headings:my-2 prose-a:underline col-span-1" data-svelte-h="svelte-129htde"><div class="glass rounded-box p-3 flex flex-col"><h2>Collected Webs</h2> <span><a href="https://www.wakingup.com/" target="_blank">Waking Up</a>, by Sam Harris</span> <span><a href="https://fortelabs.com/" target="_blank">Forte Labs</a>, by Tiago Forte</span></div></aside>` : ``}</section>`;
 });
 export {
   Page as default

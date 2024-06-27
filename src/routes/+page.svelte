@@ -14,28 +14,34 @@
 <svelte:head>
 	<title>{config.title}</title>
 </svelte:head>
-
-<section class="grid grid-cols-4">
-	<ul class="posts col-span-3 mr-16">
+<section class="grid grid-cols-[1fr_256px] gap-16">
+	<div class="prose lg:prose-xl prose-headings:mb-1 prose-p:mt-1 col-span-full">
+		<h1>Notebook</h1>
+		<p>Ideas, notes and whatever else Johannes publish.</p>
+	</div>
+	<section class="col-span-1">
 		{#each data.posts as post}
-			<article class="post">
-				<a href={post.slug} class="title">{post.title}</a>
-				<p class="date"><CalendarDays />{formatDate(post.date)}</p>
-				<p class="description">{post.description}</p>
+			<article class="my-2">
+				<a class="flex text-accent-content font-bold" href={post.slug}>
+					<header>{post.title}</header>
+
+					<div class="flex gap-1 ml-auto text-secondary-content">
+						<time datetime={post.date}> {formatDate(post.date)}</time>
+						<CalendarDays />
+					</div>
+				</a>
+				<!-- <p class="description">{post.description}</p> -->
 			</article>
 		{/each}
-	</ul>
+	</section>
 	{#if isMainPage}
-		<div class="card bg-base-100 w-fit h-fit glass prose prose-a:underline">
-			<div class="card-body">
-				<h2 class="card-title">Collected Webs</h2>
+		<aside class="prose prose-headings:my-2 prose-a:underline col-span-1">
+			<div class="glass rounded-box p-3 flex flex-col">
+				<h2>Collected Webs</h2>
 				<span><a href="https://www.wakingup.com/" target="_blank">Waking Up</a>, by Sam Harris</span
 				>
 				<span><a href="https://fortelabs.com/" target="_blank">Forte Labs</a>, by Tiago Forte</span>
 			</div>
-		</div>
+		</aside>
 	{/if}
 </section>
-
-<style>
-</style>

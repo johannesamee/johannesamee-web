@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/fira-code':
+        specifier: ^5.0.18
+        version: 5.0.18
+      '@fontsource-variable/manrope':
+        specifier: ^5.0.20
+        version: 5.0.20
       '@fontsource/jetbrains-mono':
         specifier: ^5.0.18
         version: 5.0.18
@@ -269,6 +275,12 @@ packages:
   '@eslint/js@8.56.0':
     resolution: {integrity: sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  '@fontsource-variable/fira-code@5.0.18':
+    resolution: {integrity: sha512-Pmbnf4HukX4y928RY9g47hWyVECQglwV7HLv5taaDQwI3UBXyoLUnyRsjJxeviCPhdwJY5qyLT4GaCMlgC9oCQ==}
+
+  '@fontsource-variable/manrope@5.0.20':
+    resolution: {integrity: sha512-LKL0aM0DxYj8i/zUTb5Nru0mS3YoezPZaeWY7aIxEKVX1xVBLpPHlFq0NoK2iUXhL6HoD0XMYwc6KVa8I/ayKg==}
 
   '@fontsource/jetbrains-mono@5.0.18':
     resolution: {integrity: sha512-0+YDAaAnCdXjirHFO3NfHLUW8xtKCT5rlm23Q0qG3TpZp3QBrZh5r9ikUxh3ufHc2+fVnk4Y6GWNEnVIfB7u/g==}
@@ -1885,6 +1897,10 @@ snapshots:
       - supports-color
 
   '@eslint/js@8.56.0': {}
+
+  '@fontsource-variable/fira-code@5.0.18': {}
+
+  '@fontsource-variable/manrope@5.0.20': {}
 
   '@fontsource/jetbrains-mono@5.0.18': {}
 

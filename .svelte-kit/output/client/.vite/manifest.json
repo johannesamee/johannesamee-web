@@ -1,12 +1,12 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.BSUi9dVT.js",
+    "file": "_app/immutable/entry/app.BDzDX7dS.js",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
     "imports": [
       "_preload-helper.BQ24v_F8.js",
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js"
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/client-optimized/nodes/0.js",
@@ -18,83 +18,71 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.CtZEfeNx.js",
+    "file": "_app/immutable/nodes/0.CQSiFUjv.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_stores.BYp0Bmeb.js",
-      "_index.DiUfanPG.js",
-      "_Icon._WXXitNL.js",
+      "_scheduler.D4_qaxln.js",
+      "_stores.B9AoL6rz.js",
+      "_index.BLeMwuBr.js",
+      "_Icon.CVfreB3I.js",
       "_spread.CgU5AtxT.js"
     ],
     "css": [
-      "_app/immutable/assets/0.Dkm4PKKS.css"
+      "_app/immutable/assets/0.Ciy789ig.css"
     ],
     "assets": [
-      "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
-      "_app/immutable/assets/manrope-cyrillic-400-normal.BSokYSPU.woff",
-      "_app/immutable/assets/manrope-greek-400-normal.B7YXE4JD.woff2",
-      "_app/immutable/assets/manrope-greek-400-normal.BAy2wLnG.woff",
-      "_app/immutable/assets/manrope-vietnamese-400-normal.ooLdXFia.woff2",
-      "_app/immutable/assets/manrope-vietnamese-400-normal.DJunoU0M.woff",
-      "_app/immutable/assets/manrope-latin-ext-400-normal.CdEq0HKV.woff2",
-      "_app/immutable/assets/manrope-latin-ext-400-normal.hdRL3SMy.woff",
-      "_app/immutable/assets/manrope-latin-400-normal.BWi5-Pby.woff2",
-      "_app/immutable/assets/manrope-latin-400-normal.CVCPdBT6.woff",
-      "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.DduX7Cxz.woff2",
-      "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.Ddg-ESa-.woff",
-      "_app/immutable/assets/jetbrains-mono-greek-400-normal.SMrb6SvR.woff2",
-      "_app/immutable/assets/jetbrains-mono-greek-400-normal.CL28JpsE.woff",
-      "_app/immutable/assets/jetbrains-mono-vietnamese-400-normal.DQPePN4I.woff",
-      "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Dn-Q5RzH.woff2",
-      "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Br5SKFH9.woff",
-      "_app/immutable/assets/jetbrains-mono-latin-400-normal.BrRFx4uz.woff2",
-      "_app/immutable/assets/jetbrains-mono-latin-400-normal.BKFenxV8.woff"
+      "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
+      "_app/immutable/assets/manrope-greek-wght-normal.-KUh6X2k.woff2",
+      "_app/immutable/assets/manrope-vietnamese-wght-normal.CvPE_C53.woff2",
+      "_app/immutable/assets/manrope-latin-ext-wght-normal.D62tbE3i.woff2",
+      "_app/immutable/assets/manrope-latin-wght-normal.DWlqe-xm.woff2",
+      "_app/immutable/assets/fira-code-cyrillic-ext-wght-normal.CN0639WT.woff2",
+      "_app/immutable/assets/fira-code-cyrillic-wght-normal.CWUSIOo3.woff2",
+      "_app/immutable/assets/fira-code-greek-ext-wght-normal.B8D921GV.woff2",
+      "_app/immutable/assets/fira-code-greek-wght-normal.ga5vWNon.woff2",
+      "_app/immutable/assets/fira-code-latin-ext-wght-normal.BBU9H7uk.woff2",
+      "_app/immutable/assets/fira-code-latin-wght-normal.D5jBWLYW.woff2"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.Cpufwdkd.js",
+    "file": "_app/immutable/nodes/1.CsFwM-bo.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
-      "_stores.BYp0Bmeb.js"
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
+      "_stores.B9AoL6rz.js"
     ],
     "css": [
       "_app/immutable/assets/1.COZ97Kw5.css"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.CDehlQSK.js",
+    "file": "_app/immutable/nodes/2.Du_IBbWs.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
-      "_each.D6YF6ztN.js",
-      "_utils.3InfNRpA.js",
-      "_Icon._WXXitNL.js",
-      "_stores.BYp0Bmeb.js",
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
+      "_Icon.CVfreB3I.js",
+      "_stores.B9AoL6rz.js",
       "_spread.CgU5AtxT.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/3.js": {
-    "file": "_app/immutable/nodes/3.B6A4XFrY.js",
+    "file": "_app/immutable/nodes/3.B71P9Tl5.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_preload-helper.BQ24v_F8.js",
       "_control.CYgJF_JY.js",
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
-      "_each.D6YF6ztN.js",
-      "_utils.3InfNRpA.js"
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js"
     ],
     "dynamicImports": [
       "src/posts/1-first-post.md",
@@ -102,221 +90,179 @@
       "src/posts/3-svelte-vercel-project.md",
       "src/posts/4-new-domain.md",
       "src/posts/5-color-gradients.md"
-    ],
-    "css": [
-      "_app/immutable/assets/3.DQZcbqLf.css"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/4.js": {
-    "file": "_app/immutable/nodes/4.CiJs-0Vi.js",
+    "file": "_app/immutable/nodes/4.DOG2gIYa.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js"
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/5.js": {
-    "file": "_app/immutable/nodes/5.CEiu0m0K.js",
+    "file": "_app/immutable/nodes/5.2aE87Wbi.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/5.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js"
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js"
     ]
   },
-  "_Icon._WXXitNL.js": {
-    "file": "_app/immutable/chunks/Icon._WXXitNL.js",
+  "_Icon.CVfreB3I.js": {
+    "file": "_app/immutable/chunks/Icon.CVfreB3I.js",
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
-      "_each.D6YF6ztN.js",
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
       "_spread.CgU5AtxT.js"
     ]
   },
   "_control.CYgJF_JY.js": {
     "file": "_app/immutable/chunks/control.CYgJF_JY.js"
   },
-  "_each.D6YF6ztN.js": {
-    "file": "_app/immutable/chunks/each.D6YF6ztN.js"
-  },
-  "_entry.DrF0u_6x.js": {
-    "file": "_app/immutable/chunks/entry.DrF0u_6x.js",
+  "_entry.BDDUFysh.js": {
+    "file": "_app/immutable/chunks/entry.BDDUFysh.js",
     "imports": [
-      "_scheduler.DWE2ryb4.js",
+      "_scheduler.D4_qaxln.js",
       "_control.CYgJF_JY.js"
     ]
   },
-  "_index.DiUfanPG.js": {
-    "file": "_app/immutable/chunks/index.DiUfanPG.js",
+  "_index.BLeMwuBr.js": {
+    "file": "_app/immutable/chunks/index.BLeMwuBr.js",
     "imports": [
-      "_scheduler.DWE2ryb4.js"
+      "_scheduler.D4_qaxln.js"
     ]
   },
-  "_mdsvex.jeVyY8mv.js": {
-    "file": "_app/immutable/chunks/mdsvex.jeVyY8mv.js",
+  "_mdsvex.B0LWrMXX.js": {
+    "file": "_app/immutable/chunks/mdsvex.B0LWrMXX.js",
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js"
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js"
     ]
   },
   "_preload-helper.BQ24v_F8.js": {
     "file": "_app/immutable/chunks/preload-helper.BQ24v_F8.js"
   },
-  "_scheduler.DWE2ryb4.js": {
-    "file": "_app/immutable/chunks/scheduler.DWE2ryb4.js"
+  "_scheduler.D4_qaxln.js": {
+    "file": "_app/immutable/chunks/scheduler.D4_qaxln.js"
   },
   "_spread.CgU5AtxT.js": {
     "file": "_app/immutable/chunks/spread.CgU5AtxT.js"
   },
-  "_stores.BYp0Bmeb.js": {
-    "file": "_app/immutable/chunks/stores.BYp0Bmeb.js",
+  "_stores.B9AoL6rz.js": {
+    "file": "_app/immutable/chunks/stores.B9AoL6rz.js",
     "imports": [
-      "_entry.DrF0u_6x.js"
+      "_entry.BDDUFysh.js"
     ]
   },
-  "_utils.3InfNRpA.js": {
-    "file": "_app/immutable/chunks/utils.3InfNRpA.js"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-cyrillic-ext-wght-normal.CN0639WT.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.Ddg-ESa-.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-cyrillic-wght-normal.CWUSIOo3.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.DduX7Cxz.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-greek-ext-wght-normal.B8D921GV.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-greek-400-normal.CL28JpsE.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-greek-wght-normal.ga5vWNon.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-greek-400-normal.SMrb6SvR.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-latin-ext-wght-normal.BBU9H7uk.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-400-normal.BKFenxV8.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-latin-wght-normal.D5jBWLYW.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-400-normal.BrRFx4uz.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-cyrillic-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-cyrillic-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Br5SKFH9.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-greek-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-greek-wght-normal.-KUh6X2k.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-greek-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Dn-Q5RzH.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-latin-ext-wght-normal.D62tbE3i.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-vietnamese-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-vietnamese-400-normal.DQPePN4I.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-vietnamese-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-latin-wght-normal.DWlqe-xm.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-cyrillic-400-normal.BSokYSPU.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-greek-400-normal.BAy2wLnG.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-greek-400-normal.B7YXE4JD.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-latin-400-normal.CVCPdBT6.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-latin-400-normal.BWi5-Pby.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-latin-ext-400-normal.hdRL3SMy.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-latin-ext-400-normal.CdEq0HKV.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-vietnamese-400-normal.DJunoU0M.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-vietnamese-400-normal.ooLdXFia.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-vietnamese-wght-normal.CvPE_C53.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2"
   },
   "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.D2miyEEk.js",
+    "file": "_app/immutable/entry/start.T5mW7fiQ.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.DrF0u_6x.js"
+      "_entry.BDDUFysh.js"
     ]
   },
   "src/posts/1-first-post.md": {
-    "file": "_app/immutable/chunks/1-first-post.hoT5ns7D.js",
+    "file": "_app/immutable/chunks/1-first-post.hBdbsgsr.js",
     "src": "src/posts/1-first-post.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.jeVyY8mv.js"
+      "_mdsvex.B0LWrMXX.js"
     ]
   },
   "src/posts/2-second-post.md": {
-    "file": "_app/immutable/chunks/2-second-post.Y5g5SH5u.js",
+    "file": "_app/immutable/chunks/2-second-post.D9D6TWg6.js",
     "src": "src/posts/2-second-post.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.jeVyY8mv.js"
+      "_mdsvex.B0LWrMXX.js"
     ]
   },
   "src/posts/3-svelte-vercel-project.md": {
-    "file": "_app/immutable/chunks/3-svelte-vercel-project.BVwt1JRg.js",
+    "file": "_app/immutable/chunks/3-svelte-vercel-project.DvbQRd46.js",
     "src": "src/posts/3-svelte-vercel-project.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.jeVyY8mv.js"
+      "_mdsvex.B0LWrMXX.js"
     ]
   },
   "src/posts/4-new-domain.md": {
-    "file": "_app/immutable/chunks/4-new-domain.Boxb-_YC.js",
+    "file": "_app/immutable/chunks/4-new-domain.BC-OCfDa.js",
     "src": "src/posts/4-new-domain.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.jeVyY8mv.js"
+      "_mdsvex.B0LWrMXX.js"
     ]
   },
   "src/posts/5-color-gradients.md": {
-    "file": "_app/immutable/chunks/5-color-gradients.B_fz6sQw.js",
+    "file": "_app/immutable/chunks/5-color-gradients.BFmQG-97.js",
     "src": "src/posts/5-color-gradients.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.DWE2ryb4.js",
-      "_index.DiUfanPG.js",
+      "_scheduler.D4_qaxln.js",
+      "_index.BLeMwuBr.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.jeVyY8mv.js"
+      "_mdsvex.B0LWrMXX.js"
     ],
     "css": [
       "_app/immutable/assets/5-color-gradients.6tL7uSJv.css"

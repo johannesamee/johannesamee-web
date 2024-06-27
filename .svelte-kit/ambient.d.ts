@@ -62,11 +62,13 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_tslib: string;
 	export const npm_execpath: string;
 	export const npm_package_devDependencies_svelte: string;
+	export const npm_package_dependencies__fontsource_variable_manrope: string;
 	export const LSCOLORS: string;
 	export const npm_config_frozen_lockfile: string;
 	export const npm_package_devDependencies__typescript_eslint_parser: string;
 	export const PATH: string;
 	export const MAIL: string;
+	export const npm_package_dependencies__fontsource_variable_fira_code: string;
 	export const npm_config_engine_strict: string;
 	export const npm_package_devDependencies_tailwindcss: string;
 	export const npm_command: string;
@@ -169,11 +171,13 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_tslib: string;
 		npm_execpath: string;
 		npm_package_devDependencies_svelte: string;
+		npm_package_dependencies__fontsource_variable_manrope: string;
 		LSCOLORS: string;
 		npm_config_frozen_lockfile: string;
 		npm_package_devDependencies__typescript_eslint_parser: string;
 		PATH: string;
 		MAIL: string;
+		npm_package_dependencies__fontsource_variable_fira_code: string;
 		npm_config_engine_strict: string;
 		npm_package_devDependencies_tailwindcss: string;
 		npm_command: string;

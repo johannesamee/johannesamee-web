@@ -93,84 +93,49 @@
       "_client.js"
     ]
   },
-  "_utils.js": {
-    "file": "chunks/utils.js"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-cyrillic-ext-wght-normal.CN0639WT.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.Ddg-ESa-.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-cyrillic-wght-normal.CWUSIOo3.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.DduX7Cxz.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-cyrillic-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-greek-ext-wght-normal.B8D921GV.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-greek-400-normal.CL28JpsE.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-greek-wght-normal.ga5vWNon.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-greek-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-greek-400-normal.SMrb6SvR.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-greek-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-latin-ext-wght-normal.BBU9H7uk.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-400-normal.BKFenxV8.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-wght-normal.woff2": {
+    "file": "_app/immutable/assets/fira-code-latin-wght-normal.D5jBWLYW.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-latin-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-400-normal.BrRFx4uz.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-cyrillic-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-cyrillic-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Br5SKFH9.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-greek-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-greek-wght-normal.-KUh6X2k.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-greek-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Dn-Q5RzH.woff2",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-ext-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-latin-ext-wght-normal.D62tbE3i.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-ext-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-vietnamese-400-normal.woff": {
-    "file": "_app/immutable/assets/jetbrains-mono-vietnamese-400-normal.DQPePN4I.woff",
-    "src": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.0.18/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-vietnamese-400-normal.woff"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-latin-wght-normal.DWlqe-xm.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-cyrillic-400-normal.BSokYSPU.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-cyrillic-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-greek-400-normal.BAy2wLnG.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-greek-400-normal.B7YXE4JD.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-greek-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-latin-400-normal.CVCPdBT6.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-latin-400-normal.BWi5-Pby.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-latin-ext-400-normal.hdRL3SMy.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-latin-ext-400-normal.CdEq0HKV.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-latin-ext-400-normal.woff2"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff": {
-    "file": "_app/immutable/assets/manrope-vietnamese-400-normal.DJunoU0M.woff",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff"
-  },
-  "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff2": {
-    "file": "_app/immutable/assets/manrope-vietnamese-400-normal.ooLdXFia.woff2",
-    "src": "node_modules/.pnpm/@fontsource+manrope@5.0.18/node_modules/@fontsource/manrope/files/manrope-vietnamese-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2": {
+    "file": "_app/immutable/assets/manrope-vietnamese-wght-normal.CvPE_C53.woff2",
+    "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2"
   },
   "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
     "file": "index.js",
@@ -202,31 +167,24 @@
     "imports": [
       "_ssr.js",
       "_config.js",
-      "_Icon.js"
+      "_Icon.js",
+      "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.A52JVjZ3.css"
+      "_app/immutable/assets/_layout.DiKRioON.css"
     ],
     "assets": [
-      "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
-      "_app/immutable/assets/manrope-cyrillic-400-normal.BSokYSPU.woff",
-      "_app/immutable/assets/manrope-greek-400-normal.B7YXE4JD.woff2",
-      "_app/immutable/assets/manrope-greek-400-normal.BAy2wLnG.woff",
-      "_app/immutable/assets/manrope-vietnamese-400-normal.ooLdXFia.woff2",
-      "_app/immutable/assets/manrope-vietnamese-400-normal.DJunoU0M.woff",
-      "_app/immutable/assets/manrope-latin-ext-400-normal.CdEq0HKV.woff2",
-      "_app/immutable/assets/manrope-latin-ext-400-normal.hdRL3SMy.woff",
-      "_app/immutable/assets/manrope-latin-400-normal.BWi5-Pby.woff2",
-      "_app/immutable/assets/manrope-latin-400-normal.CVCPdBT6.woff",
-      "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.DduX7Cxz.woff2",
-      "_app/immutable/assets/jetbrains-mono-cyrillic-400-normal.Ddg-ESa-.woff",
-      "_app/immutable/assets/jetbrains-mono-greek-400-normal.SMrb6SvR.woff2",
-      "_app/immutable/assets/jetbrains-mono-greek-400-normal.CL28JpsE.woff",
-      "_app/immutable/assets/jetbrains-mono-vietnamese-400-normal.DQPePN4I.woff",
-      "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Dn-Q5RzH.woff2",
-      "_app/immutable/assets/jetbrains-mono-latin-ext-400-normal.Br5SKFH9.woff",
-      "_app/immutable/assets/jetbrains-mono-latin-400-normal.BrRFx4uz.woff2",
-      "_app/immutable/assets/jetbrains-mono-latin-400-normal.BKFenxV8.woff"
+      "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
+      "_app/immutable/assets/manrope-greek-wght-normal.-KUh6X2k.woff2",
+      "_app/immutable/assets/manrope-vietnamese-wght-normal.CvPE_C53.woff2",
+      "_app/immutable/assets/manrope-latin-ext-wght-normal.D62tbE3i.woff2",
+      "_app/immutable/assets/manrope-latin-wght-normal.DWlqe-xm.woff2",
+      "_app/immutable/assets/fira-code-cyrillic-ext-wght-normal.CN0639WT.woff2",
+      "_app/immutable/assets/fira-code-cyrillic-wght-normal.CWUSIOo3.woff2",
+      "_app/immutable/assets/fira-code-greek-ext-wght-normal.B8D921GV.woff2",
+      "_app/immutable/assets/fira-code-greek-wght-normal.ga5vWNon.woff2",
+      "_app/immutable/assets/fira-code-latin-ext-wght-normal.BBU9H7uk.woff2",
+      "_app/immutable/assets/fira-code-latin-wght-normal.D5jBWLYW.woff2"
     ]
   },
   "src/routes/+layout.ts": {
@@ -243,7 +201,6 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_utils.js",
       "_config.js",
       "_stores.js",
       "_Icon.js"
@@ -259,11 +216,7 @@
     "src": "src/routes/[slug]/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_utils.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page.DQZcbqLf.css"
+      "_ssr.js"
     ]
   },
   "src/routes/[slug]/+page.ts": {
