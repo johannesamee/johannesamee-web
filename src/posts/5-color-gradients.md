@@ -25,6 +25,6 @@ CSS used
 }
 ```
 
-Created the following beautiful image. Now I just have to figure out how to get this as an image somehow.
+These styles created this beautiful image. Now I just have to figure out how to get this as an image somehow so it can be used as preview images for links with `og:image` for example.
 
 <Gradient />

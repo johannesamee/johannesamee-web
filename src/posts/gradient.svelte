@@ -10,7 +10,7 @@
 		filter: var(--noise-filter-3);
 		background-size: cover;
 		filter: var(--noise-filter-1);
-		border-radius: var(--radius-2);
+		border-radius: var(--radius-3);
 		aspect-ratio: var(--ratio-landscape);
 	}
 </style>

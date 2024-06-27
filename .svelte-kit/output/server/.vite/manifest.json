@@ -47,7 +47,7 @@
       "_mdsvex.js"
     ],
     "css": [
-      "_app/immutable/assets/5-color-gradients.XcxsVOPI.css"
+      "_app/immutable/assets/5-color-gradients.6tL7uSJv.css"
     ]
   },
   "_Icon.js": {
@@ -65,17 +65,24 @@
   "_config.js": {
     "file": "chunks/config.js"
   },
+  "_create.js": {
+    "file": "chunks/create.js",
+    "imports": [
+      "_index2.js",
+      "_ssr.js"
+    ]
+  },
   "_exports.js": {
     "file": "chunks/exports.js"
   },
   "_index.js": {
-    "file": "chunks/index.js",
+    "file": "chunks/index.js"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
     "imports": [
       "_ssr.js"
     ]
-  },
-  "_index2.js": {
-    "file": "chunks/index2.js"
   },
   "_internal.js": {
     "file": "chunks/internal.js",
@@ -88,6 +95,9 @@
     "imports": [
       "_ssr.js"
     ]
+  },
+  "_prod-ssr.js": {
+    "file": "chunks/prod-ssr.js"
   },
   "_ssr.js": {
     "file": "chunks/ssr.js"
@@ -183,10 +193,11 @@
     "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/server/index.js",
     "isEntry": true,
     "imports": [
-      "_index.js",
+      "_prod-ssr.js",
       "_internal.js",
-      "_index2.js",
-      "_exports.js"
+      "_index.js",
+      "_exports.js",
+      "_index2.js"
     ]
   },
   "src/routes/+error.svelte": {
@@ -208,12 +219,14 @@
     "imports": [
       "_ssr.js",
       "_config.js",
-      "_index.js",
+      "_create.js",
       "_Icon.js",
+      "_index2.js",
+      "_prod-ssr.js",
       "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.0BV0GqyU.css"
+      "_app/immutable/assets/_layout.fUz31Tl6.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-400-normal.DYJIFuzK.woff2",
@@ -281,7 +294,7 @@
     "src": "src/routes/[slug]/+page.ts",
     "isEntry": true,
     "imports": [
-      "_index2.js"
+      "_index.js"
     ],
     "dynamicImports": [
       "_1-first-post.js",
@@ -309,7 +322,7 @@
       "_3-svelte-vercel-project.js",
       "_4-new-domain.js",
       "_5-color-gradients.js",
-      "_index2.js"
+      "_index.js"
     ]
   },
   "src/routes/contact/+page.svelte": {
@@ -317,7 +330,11 @@
     "src": "src/routes/contact/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js"
+      "_ssr.js",
+      "_create.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Di69menZ.css"
     ]
   },
   "src/routes/rss.xml/+server.ts": {

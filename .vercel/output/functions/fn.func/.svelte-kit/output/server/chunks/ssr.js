@@ -9,6 +9,9 @@ function blank_object() {
 function run_all(fns) {
   fns.forEach(run);
 }
+function is_function(thing) {
+  return typeof thing === "function";
+}
 function safe_not_equal(a, b) {
   return a != a ? b == b : a !== b || a && typeof a === "object" || typeof a === "function";
 }
@@ -21,6 +24,11 @@ function subscribe(store, ...callbacks) {
   }
   const unsub = store.subscribe(...callbacks);
   return unsub.unsubscribe ? () => unsub.unsubscribe() : unsub;
+}
+function get_store_value(store) {
+  let value;
+  subscribe(store, (_) => value = _)();
+  return value;
 }
 function compute_rest_props(props, keys) {
   const rest = {};
@@ -41,6 +49,9 @@ function get_current_component() {
   if (!current_component)
     throw new Error("Function called outside component initialization");
   return current_component;
+}
+function onDestroy(fn) {
+  get_current_component().$$.on_destroy.push(fn);
 }
 function setContext(key, context) {
   get_current_component().$$.context.set(key, context);
@@ -238,19 +249,25 @@ function style_object_to_string(style_object) {
 }
 export {
   subscribe as a,
-  noop as b,
+  spread as b,
   create_ssr_component as c,
-  safe_not_equal as d,
+  escape_object as d,
   escape as e,
   each as f,
   getContext as g,
   add_attribute as h,
   compute_rest_props as i,
-  spread as j,
-  escape_object as k,
-  escape_attribute_value as l,
+  escape_attribute_value as j,
+  set_current_component as k,
+  current_component as l,
   missing_component as m,
   null_to_empty as n,
+  onDestroy as o,
+  get_store_value as p,
+  noop as q,
+  run_all as r,
   setContext as s,
+  safe_not_equal as t,
+  is_function as u,
   validate_component as v
 };

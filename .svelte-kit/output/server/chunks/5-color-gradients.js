@@ -1,12 +1,12 @@
 import { c as create_ssr_component, v as validate_component } from "./ssr.js";
 import { M as Mdsvex } from "./mdsvex.js";
 const css = {
-  code: ".gradient.svelte-19u65kp{margin-block-start:var(--size-2);background-image:var(--gradient-3), var(--noise-3);filter:var(--noise-filter-3);background-size:cover;filter:var(--noise-filter-1);border-radius:var(--radius-2);aspect-ratio:var(--ratio-landscape)}",
+  code: ".gradient.svelte-a862h4{margin-block-start:var(--size-2);background-image:var(--gradient-3), var(--noise-3);filter:var(--noise-filter-3);background-size:cover;filter:var(--noise-filter-1);border-radius:var(--radius-3);aspect-ratio:var(--ratio-landscape)}",
   map: null
 };
 const Gradient = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div class="gradient svelte-19u65kp"></div>`;
+  return `<div class="gradient svelte-a862h4"></div>`;
 });
 const metadata = {
   "title": "Color Gradients and Noise Experiments",
@@ -25,7 +25,7 @@ const _5_color_gradients = create_ssr_component(($$result, $$props, $$bindings, 
 <span class="line"><span style="color:#ADD7FF">		filter</span><span style="color:#A6ACCD">: var(--noise-filter-1);</span></span>
 <span class="line"><span style="color:#ADD7FF">		border-radius</span><span style="color:#A6ACCD">: var(--radius-2);</span></span>
 <span class="line"><span style="color:#A6ACCD">		aspect-ratio: var(--ratio-landscape);</span></span>
-<span class="line"><span style="color:#A6ACCD">&#125;</span></span></code></pre>`}<!-- HTML_TAG_END --> <p data-svelte-h="svelte-aygi1l">Created the following beautiful image. Now I just have to figure out how to get this as an image somehow.</p> ${validate_component(Gradient, "Gradient").$$render($$result, {}, {}, {})}`;
+<span class="line"><span style="color:#A6ACCD">&#125;</span></span></code></pre>`}<!-- HTML_TAG_END --> <p data-svelte-h="svelte-1lugbm6">These styles created this beautiful image. Now I just have to figure out how to get this as an image somehow so it can be used as preview images for links with <code>og:image</code> for example.</p> ${validate_component(Gradient, "Gradient").$$render($$result, {}, {}, {})}`;
     }
   })}`;
 });

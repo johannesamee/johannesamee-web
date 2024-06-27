@@ -1,6 +1,10 @@
 @import '@fontsource/manrope';
 @import '@fontsource/jetbrains-mono';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
     /* font */
     --font-sans: 'Manrope', sans-serif;

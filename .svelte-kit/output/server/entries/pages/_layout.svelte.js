@@ -1,17 +1,11 @@
-import { c as create_ssr_component, e as escape, v as validate_component, a as subscribe, n as null_to_empty } from "../../chunks/ssr.js";
+import { c as create_ssr_component, v as validate_component, a as subscribe, e as escape, b as spread, d as escape_object, n as null_to_empty } from "../../chunks/ssr.js";
 import { t as title } from "../../chunks/config.js";
-import { B as BROWSER, w as writable } from "../../chunks/index.js";
+import { c as createLinkPreview } from "../../chunks/create.js";
 import { I as Icon } from "../../chunks/Icon.js";
+import { w as writable } from "../../chunks/index2.js";
+import { B as BROWSER } from "../../chunks/prod-ssr.js";
 import { p as page } from "../../chunks/stores.js";
 const browser = BROWSER;
-const css$4 = {
-  code: "footer.svelte-k2ae0s{padding-block:var(--size-7);border-top:1px solid var(--border)}p.svelte-k2ae0s{color:var(--text-2)}",
-  map: null
-};
-const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$4);
-  return `<footer class="svelte-k2ae0s"><p class="svelte-k2ae0s">${escape(title)} © ${escape((/* @__PURE__ */ new Date()).getFullYear())}</p> </footer>`;
-});
 const Circle_user = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const iconNode = [
     ["circle", { "cx": "12", "cy": "12", "r": "10" }],
@@ -30,6 +24,23 @@ const Circle_user = create_ssr_component(($$result, $$props, $$bindings, slots) 
   })}`;
 });
 const CircleUser = Circle_user;
+const Github = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const iconNode = [
+    [
+      "path",
+      {
+        "d": "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+      }
+    ],
+    ["path", { "d": "M9 18c-4.51 2-5-2-7-2" }]
+  ];
+  return `${validate_component(Icon, "Icon").$$render($$result, Object.assign({}, { name: "github" }, $$props, { iconNode }), {}, {
+    default: () => {
+      return `${slots.default ? slots.default({}) : ``}`;
+    }
+  })}`;
+});
+const Github$1 = Github;
 const Info = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const iconNode = [
     ["circle", { "cx": "12", "cy": "12", "r": "10" }],
@@ -43,6 +54,32 @@ const Info = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   })}`;
 });
 const Info$1 = Info;
+const Linkedin = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const iconNode = [
+    [
+      "path",
+      {
+        "d": "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+      }
+    ],
+    [
+      "rect",
+      {
+        "width": "4",
+        "height": "12",
+        "x": "2",
+        "y": "9"
+      }
+    ],
+    ["circle", { "cx": "4", "cy": "4", "r": "2" }]
+  ];
+  return `${validate_component(Icon, "Icon").$$render($$result, Object.assign({}, { name: "linkedin" }, $$props, { iconNode }), {}, {
+    default: () => {
+      return `${slots.default ? slots.default({}) : ``}`;
+    }
+  })}`;
+});
+const Linkedin$1 = Linkedin;
 const Moon = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const iconNode = [
     [
@@ -91,6 +128,35 @@ const Sun = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   })}`;
 });
 const Sun$1 = Sun;
+const css$4 = {
+  code: ".trigger.svelte-1basenp.svelte-1basenp{display:flex;height:2rem;width:2rem;align-items:center;justify-content:center;border-radius:9999px;--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity));padding:0px;font-size:0.875rem;line-height:1.25rem;font-weight:500;--tw-text-opacity:1;color:rgb(121 58 21 / var(--tw-text-opacity));transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.trigger.svelte-1basenp.svelte-1basenp:hover{background-color:rgb(255 255 255 / 0.9)}.trigger.svelte-1basenp.svelte-1basenp:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);--tw-ring-opacity:1;--tw-ring-color:rgb(247 177 85 / var(--tw-ring-opacity));--tw-ring-offset-width:2px}footer.svelte-1basenp.svelte-1basenp{padding-block:var(--size-7);border-top:1px solid var(--border)}footer.svelte-1basenp a.svelte-1basenp{align-content:center}p.svelte-1basenp.svelte-1basenp{color:var(--text-2)}",
+  map: null
+};
+const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $trigger, $$unsubscribe_trigger;
+  let $open, $$unsubscribe_open;
+  let $content, $$unsubscribe_content;
+  let $arrow, $$unsubscribe_arrow;
+  const { elements: { trigger, content, arrow }, states: { open } } = createLinkPreview({ forceVisible: true });
+  $$unsubscribe_trigger = subscribe(trigger, (value) => $trigger = value);
+  $$unsubscribe_content = subscribe(content, (value) => $content = value);
+  $$unsubscribe_arrow = subscribe(arrow, (value) => $arrow = value);
+  $$unsubscribe_open = subscribe(open, (value) => $open = value);
+  $$result.css.add(css$4);
+  $$unsubscribe_trigger();
+  $$unsubscribe_open();
+  $$unsubscribe_content();
+  $$unsubscribe_arrow();
+  return `<footer class="flex justify-between svelte-1basenp"><p class="svelte-1basenp">${escape(title)} © ${escape((/* @__PURE__ */ new Date()).getFullYear())}</p> <div class="flex gap-3"><div${spread([{ class: "trigger me-2" }, escape_object($trigger)], { classes: "svelte-1basenp" })}><img src="https://media.licdn.com/dms/image/D4D03AQEXI0MHYf3fQA/profile-displayphoto-shrink_200_200/0/1710513333483?e=1724889600&v=beta&t=sH3WNF2xdILIzdPQwj5rjrw7PgKgoPJuzL8dbUWQnxk" alt="Linkedin Profile Picture" class="h-full w-full rounded-full bg-neutral-900 object-contain p-1"> <span class="sr-only" data-svelte-h="svelte-ts639p">Open Melt UI Details</span></div> ${$open ? `<div${spread(
+    [
+      escape_object($content),
+      {
+        class: "z-10 rounded-md bg-white shadow-sm"
+      }
+    ],
+    { classes: "svelte-1basenp" }
+  )}><div class="w-[300px] rounded-md bg-white p-5 shadow-sm" data-svelte-h="svelte-dm9c4k"><div class="flex flex-col gap-2"><img src="https://media.licdn.com/dms/image/D4D03AQEXI0MHYf3fQA/profile-displayphoto-shrink_200_200/0/1710513333483?e=1724889600&v=beta&t=sH3WNF2xdILIzdPQwj5rjrw7PgKgoPJuzL8dbUWQnxk" alt="Linkedin Profile Picture" class="object-fit block h-14 w-14 rounded-full bg-neutral-900 p-1"> <div class="flex flex-col gap-4"><div><div class="font-bold text-neutral-900">Johannes Amée Björkdahl</div> <div class="text-neutral-400">Delivery Lead</div></div></div> <div class="m-0 text-neutral-700">TBA</div> <div class="flex gap-4"><div class="flex gap-1"><a class="text-neutral-400 underline svelte-1basenp" href="https://www.linkedin.com/company/decerno-ab/">Decerno AB</a></div> <div class="flex gap-1"><div class="text-neutral-400">Gothenburg</div></div></div></div></div> <div${spread([escape_object($arrow)], { classes: "svelte-1basenp" })}></div></div>` : ``} <a href="https://www.linkedin.com/in/johannes-am%C3%A9e-bj%C3%B6rkdahl-ab7495a9" target="_blank" class="svelte-1basenp">${validate_component(Linkedin$1, "Linkedin").$$render($$result, {}, {}, {})}</a> <a href="/rss.xml" target="_blank" class="svelte-1basenp">${validate_component(Rss$1, "Rss").$$render($$result, {}, {}, {})}</a> <a href="https://github.com/johannesamee" target="_blank" class="svelte-1basenp">${validate_component(Github$1, "Github").$$render($$result, {}, {}, {})}</a></div> </footer>`;
+});
 const userTheme = browser;
 const theme = writable(userTheme);
 const css$3 = {
