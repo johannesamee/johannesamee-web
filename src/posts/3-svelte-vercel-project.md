@@ -1,5 +1,5 @@
 ---
-title: Svelte Web with Markdown Processor
+title: Svelte Web with Markdown Processor (Dummy Post)
 description: Export from a Bear Note to markdown. Example of a personal note kept during the making of this web.
 date: '2024-6-25'
 categories:

@@ -35,6 +35,17 @@
 			}
 		},
 		{
+			"src": "/posts/7-journey-before-destination",
+			"dest": "/posts/7-journey-before-destination/"
+		},
+		{
+			"src": "/posts/7-journey-before-destination/",
+			"status": 308,
+			"headers": {
+				"Location": "/posts/7-journey-before-destination"
+			}
+		},
+		{
 			"src": "/posts/4-new-domain",
 			"dest": "/posts/4-new-domain/"
 		},
@@ -115,6 +126,9 @@
 		},
 		"posts/6-congratulations-aeon.html": {
 			"path": "posts/6-congratulations-aeon"
+		},
+		"posts/7-journey-before-destination.html": {
+			"path": "posts/7-journey-before-destination"
 		},
 		"posts/4-new-domain.html": {
 			"path": "posts/4-new-domain"

@@ -1,5 +1,5 @@
 ---
-title: First Markdown Page
+title: First Markdown Page (Dummy Post)
 description: First md file upload, testing markdown processor and code syntax.
 date: '2024-6-23'
 categories:
@@ -10,13 +10,14 @@ published: true
 
 ## Markdown
 
-Hey! 👋
+`PLACEHOLDER`
+Reserved for later use.
 
 ---
 
 Some `TypeScript` code:
 ```ts
 function greet(name: string) {
-	console.log(`Hey ${name}! 👋`)
+	console.log(`Hey ${name}!`)
 }
 ```

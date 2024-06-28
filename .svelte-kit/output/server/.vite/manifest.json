@@ -45,9 +45,6 @@
     "imports": [
       "_ssr.js",
       "_mdsvex.js"
-    ],
-    "css": [
-      "_app/immutable/assets/5-color-gradients.6tL7uSJv.css"
     ]
   },
   "_6-congratulations-aeon.js": {
@@ -59,6 +56,14 @@
     ],
     "css": [
       "_app/immutable/assets/6-congratulations-aeon.C_RTBF2R.css"
+    ]
+  },
+  "_7-journey-before-destination.js": {
+    "file": "chunks/7-journey-before-destination.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
     ]
   },
   "_Icon.js": {
@@ -182,7 +187,7 @@
       "_client.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.BRb_cOPP.css"
+      "_app/immutable/assets/_layout.BqEO5ql0.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
@@ -241,6 +246,7 @@
       "_4-new-domain.js",
       "_5-color-gradients.js",
       "_6-congratulations-aeon.js",
+      "_7-journey-before-destination.js",
       "_index.js"
     ]
   },
@@ -273,7 +279,8 @@
       "_3-svelte-vercel-project.js",
       "_4-new-domain.js",
       "_5-color-gradients.js",
-      "_6-congratulations-aeon.js"
+      "_6-congratulations-aeon.js",
+      "_7-journey-before-destination.js"
     ]
   },
   "src/routes/rss.xml/+server.ts": {

@@ -1,12 +1,12 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.CCkNdbAX.js",
+    "file": "_app/immutable/entry/app.HSEg25nG.js",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
     "imports": [
       "_preload-helper.BQ24v_F8.js",
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js"
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/client-optimized/nodes/0.js",
@@ -18,20 +18,20 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.wFM_MPw_.js",
+    "file": "_app/immutable/nodes/0.BomUa-Ro.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_stores.-dgZt3FI.js",
-      "_index.BLeMwuBr.js",
-      "_Icon.CVfreB3I.js",
+      "_scheduler.uuNsLXlX.js",
+      "_stores.Dkj3Eou_.js",
+      "_index.BKg8bbRF.js",
+      "_Icon.DTWVIL2k.js",
       "_spread.CgU5AtxT.js",
-      "_entry.9yiwfX1h.js"
+      "_entry.D-ZRGtjE.js"
     ],
     "css": [
-      "_app/immutable/assets/0.CY5FhnJw.css"
+      "_app/immutable/assets/0.OCSAYiwF.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
@@ -48,62 +48,62 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.BikNDutJ.js",
+    "file": "_app/immutable/nodes/1.BAu4h8Sy.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
-      "_stores.-dgZt3FI.js"
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
+      "_stores.Dkj3Eou_.js"
     ],
     "css": [
       "_app/immutable/assets/1.COZ97Kw5.css"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.CKHqOGkG.js",
+    "file": "_app/immutable/nodes/2.MMTOYKSN.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
-      "_Icon.CVfreB3I.js",
-      "_stores.-dgZt3FI.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
+      "_Icon.DTWVIL2k.js",
+      "_stores.Dkj3Eou_.js",
       "_spread.CgU5AtxT.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/3.js": {
-    "file": "_app/immutable/nodes/3.DOG2gIYa.js",
+    "file": "_app/immutable/nodes/3.CQizXWUH.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js"
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/4.js": {
-    "file": "_app/immutable/nodes/4.2aE87Wbi.js",
+    "file": "_app/immutable/nodes/4.DllzF7lt.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js"
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/5.js": {
-    "file": "_app/immutable/nodes/5.SNrV6gZQ.js",
+    "file": "_app/immutable/nodes/5.CBfeeZRo.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/5.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_preload-helper.BQ24v_F8.js",
       "_control.CYgJF_JY.js",
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js"
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js"
     ],
     "dynamicImports": [
       "src/posts/1-first-post.md",
@@ -111,53 +111,54 @@
       "src/posts/3-svelte-vercel-project.md",
       "src/posts/4-new-domain.md",
       "src/posts/5-color-gradients.md",
-      "src/posts/6-congratulations-aeon.md"
+      "src/posts/6-congratulations-aeon.md",
+      "src/posts/7-journey-before-destination.md"
     ]
   },
-  "_Icon.CVfreB3I.js": {
-    "file": "_app/immutable/chunks/Icon.CVfreB3I.js",
+  "_Icon.DTWVIL2k.js": {
+    "file": "_app/immutable/chunks/Icon.DTWVIL2k.js",
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
       "_spread.CgU5AtxT.js"
     ]
   },
   "_control.CYgJF_JY.js": {
     "file": "_app/immutable/chunks/control.CYgJF_JY.js"
   },
-  "_entry.9yiwfX1h.js": {
-    "file": "_app/immutable/chunks/entry.9yiwfX1h.js",
+  "_entry.D-ZRGtjE.js": {
+    "file": "_app/immutable/chunks/entry.D-ZRGtjE.js",
     "imports": [
-      "_scheduler.D4_qaxln.js",
+      "_scheduler.uuNsLXlX.js",
       "_control.CYgJF_JY.js"
     ]
   },
-  "_index.BLeMwuBr.js": {
-    "file": "_app/immutable/chunks/index.BLeMwuBr.js",
+  "_index.BKg8bbRF.js": {
+    "file": "_app/immutable/chunks/index.BKg8bbRF.js",
     "imports": [
-      "_scheduler.D4_qaxln.js"
+      "_scheduler.uuNsLXlX.js"
     ]
   },
-  "_mdsvex.B0LWrMXX.js": {
-    "file": "_app/immutable/chunks/mdsvex.B0LWrMXX.js",
+  "_mdsvex.BX0zoivI.js": {
+    "file": "_app/immutable/chunks/mdsvex.BX0zoivI.js",
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js"
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js"
     ]
   },
   "_preload-helper.BQ24v_F8.js": {
     "file": "_app/immutable/chunks/preload-helper.BQ24v_F8.js"
   },
-  "_scheduler.D4_qaxln.js": {
-    "file": "_app/immutable/chunks/scheduler.D4_qaxln.js"
+  "_scheduler.uuNsLXlX.js": {
+    "file": "_app/immutable/chunks/scheduler.uuNsLXlX.js"
   },
   "_spread.CgU5AtxT.js": {
     "file": "_app/immutable/chunks/spread.CgU5AtxT.js"
   },
-  "_stores.-dgZt3FI.js": {
-    "file": "_app/immutable/chunks/stores.-dgZt3FI.js",
+  "_stores.Dkj3Eou_.js": {
+    "file": "_app/immutable/chunks/stores.Dkj3Eou_.js",
     "imports": [
-      "_entry.9yiwfX1h.js"
+      "_entry.D-ZRGtjE.js"
     ]
   },
   "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-ext-wght-normal.woff2": {
@@ -205,83 +206,91 @@
     "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2"
   },
   "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.Cc9oqKJF.js",
+    "file": "_app/immutable/entry/start.DGCI-N4_.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.9yiwfX1h.js"
+      "_entry.D-ZRGtjE.js"
     ]
   },
   "src/posts/1-first-post.md": {
-    "file": "_app/immutable/chunks/1-first-post.DNoCaPlZ.js",
+    "file": "_app/immutable/chunks/1-first-post.DIDUjebD.js",
     "src": "src/posts/1-first-post.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.B0LWrMXX.js"
+      "_mdsvex.BX0zoivI.js"
     ]
   },
   "src/posts/2-second-post.md": {
-    "file": "_app/immutable/chunks/2-second-post.BKGmV6ip.js",
+    "file": "_app/immutable/chunks/2-second-post.Duve6x8x.js",
     "src": "src/posts/2-second-post.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.B0LWrMXX.js"
+      "_mdsvex.BX0zoivI.js"
     ]
   },
   "src/posts/3-svelte-vercel-project.md": {
-    "file": "_app/immutable/chunks/3-svelte-vercel-project.3_MuY3Ji.js",
+    "file": "_app/immutable/chunks/3-svelte-vercel-project.EpSc28E0.js",
     "src": "src/posts/3-svelte-vercel-project.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.B0LWrMXX.js"
+      "_mdsvex.BX0zoivI.js"
     ]
   },
   "src/posts/4-new-domain.md": {
-    "file": "_app/immutable/chunks/4-new-domain.C35mgtFP.js",
+    "file": "_app/immutable/chunks/4-new-domain.C_aY2xC6.js",
     "src": "src/posts/4-new-domain.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.B0LWrMXX.js"
+      "_mdsvex.BX0zoivI.js"
     ]
   },
   "src/posts/5-color-gradients.md": {
-    "file": "_app/immutable/chunks/5-color-gradients.B4SBNAqb.js",
+    "file": "_app/immutable/chunks/5-color-gradients.zGgO-Grr.js",
     "src": "src/posts/5-color-gradients.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.B0LWrMXX.js"
-    ],
-    "css": [
-      "_app/immutable/assets/5-color-gradients.6tL7uSJv.css"
+      "_mdsvex.BX0zoivI.js"
     ]
   },
   "src/posts/6-congratulations-aeon.md": {
-    "file": "_app/immutable/chunks/6-congratulations-aeon.bOxKBqxs.js",
+    "file": "_app/immutable/chunks/6-congratulations-aeon.DXTIxjio.js",
     "src": "src/posts/6-congratulations-aeon.md",
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.D4_qaxln.js",
-      "_index.BLeMwuBr.js",
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
       "_spread.CgU5AtxT.js",
-      "_mdsvex.B0LWrMXX.js"
+      "_mdsvex.BX0zoivI.js"
     ],
     "css": [
       "_app/immutable/assets/6-congratulations-aeon.C_RTBF2R.css"
+    ]
+  },
+  "src/posts/7-journey-before-destination.md": {
+    "file": "_app/immutable/chunks/7-journey-before-destination.DI2205yc.js",
+    "src": "src/posts/7-journey-before-destination.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
+      "_spread.CgU5AtxT.js",
+      "_mdsvex.BX0zoivI.js"
     ]
   }
 }

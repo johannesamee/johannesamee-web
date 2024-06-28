@@ -1,5 +1,5 @@
 ---
-title: Color Gradients and Noise Experiments
+title: Color Gradients and Noise Experiments (Dummy Post)
 description: Tesing the color gradient and noise settings from open-props.
 date: '2024-6-26'
 categories:
@@ -7,10 +7,6 @@ categories:
   - svelte
 published: true
 ---
-
-<script>
-import Gradient from './gradient.svelte'
-</script>
 
 ### ~~Gradient Images from open-props~~
 ### `open-props` is no longer used
@@ -33,6 +29,4 @@ CSS used
 }
 ```
 
-These styles created this beautiful image. Now I just have to figure out how to get this as an image somehow so it can be used as preview images for links with `og:image` for example.
-
-<Gradient />
+~~These styles created this beautiful image. Now I just have to figure out how to get this as an image somehow so it can be used as preview images for links with `og:image` for example.~~

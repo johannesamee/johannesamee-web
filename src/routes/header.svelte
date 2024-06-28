@@ -20,10 +20,7 @@
 					{isMainPage ? 'min-h-12' : 'min-h-fit'}"
 				><div class="avatar">
 					<div class="w-12 max-w-12 rounded-full">
-						<img
-							src="https://media.licdn.com/dms/image/D4D03AQEXI0MHYf3fQA/profile-displayphoto-shrink_800_800/0/1710513333483?e=1724889600&v=beta&t=Da52QVeoZ8fdB5Ch-5WrqVHyAyMmG5S2VfdOVFNIxds"
-							alt="Linkedin Profile Picture"
-						/>
+						<img src="../avatar.jpeg" />
 					</div>
 				</div>
 				{config.title}

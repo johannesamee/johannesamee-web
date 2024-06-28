@@ -25,7 +25,7 @@
 				>
 					<header>{post.title}</header>
 
-					<div class="flex gap-1 md:ml-auto text-secondary-content">
+					<div class="flex gap-1 md:ml-auto text-secondary-content pl-1 min-w-fit">
 						<time datetime={post.date}> {formatDate(post.date)}</time>
 						<CalendarDays class="hidden md:block" />
 					</div>

@@ -1,5 +1,5 @@
 ---
-title: Second Markdown Page
+title: Second Markdown Page (Dummy Post)
 description: Second post on Johannes Amée Web. Example image with markdown format + some formatting.
 date: '2024-6-24'
 categories:
@@ -8,16 +8,13 @@ categories:
 published: true
 ---
 
-<script>
-  import Counter from './counter.svelte'
-</script>
-
 ## Svelte
+
+`PLACEHOLDER`
+Reserved for later use.
+
+---
 
 Media inside the **static** folder is served from `/`.
 
 ![Svelte](../favicon.png)
-
-## Counter
-
-<Counter />

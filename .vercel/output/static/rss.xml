@@ -14,6 +14,14 @@
 						</item>
 					
 						<item>
+							<title>Life Before Death, Strength Before Weakness, Journey Before Destination!</title>
+							<description>Discover how the powerful mantra from Stormlight Archive can guide your everyday decisions and help you live a more fulfilling life.</description>
+							<link>https://johannesamee.com/7-journey-before-destination</link>
+							<guid isPermaLink="true">https://johannesamee.com/7-journey-before-destination</guid>
+							<pubDate>Thu, 27 Jun 2024 22:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
 							<title>New Domain, www.johannesamee.com</title>
 							<description>Deploying to the new domain via vercel.</description>
 							<link>https://johannesamee.com/4-new-domain</link>
@@ -22,7 +30,7 @@
 						</item>
 					
 						<item>
-							<title>Color Gradients and Noise Experiments</title>
+							<title>Color Gradients and Noise Experiments (Dummy Post)</title>
 							<description>Tesing the color gradient and noise settings from open-props.</description>
 							<link>https://johannesamee.com/5-color-gradients</link>
 							<guid isPermaLink="true">https://johannesamee.com/5-color-gradients</guid>
@@ -30,7 +38,7 @@
 						</item>
 					
 						<item>
-							<title>Svelte Web with Markdown Processor</title>
+							<title>Svelte Web with Markdown Processor (Dummy Post)</title>
 							<description>Export from a Bear Note to markdown. Example of a personal note kept during the making of this web.</description>
 							<link>https://johannesamee.com/3-svelte-vercel-project</link>
 							<guid isPermaLink="true">https://johannesamee.com/3-svelte-vercel-project</guid>
@@ -38,7 +46,7 @@
 						</item>
 					
 						<item>
-							<title>Second Markdown Page</title>
+							<title>Second Markdown Page (Dummy Post)</title>
 							<description>Second post on Johannes Amée Web. Example image with markdown format + some formatting.</description>
 							<link>https://johannesamee.com/2-second-post</link>
 							<guid isPermaLink="true">https://johannesamee.com/2-second-post</guid>
@@ -46,7 +54,7 @@
 						</item>
 					
 						<item>
-							<title>First Markdown Page</title>
+							<title>First Markdown Page (Dummy Post)</title>
 							<description>First md file upload, testing markdown processor and code syntax.</description>
 							<link>https://johannesamee.com/1-first-post</link>
 							<guid isPermaLink="true">https://johannesamee.com/1-first-post</guid>
