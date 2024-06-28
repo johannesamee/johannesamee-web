@@ -1,7 +1,7 @@
 ---
 title: Life Before Death, Strength Before Weakness, Journey Before Destination!
 description: Discover how the powerful mantra from Stormlight Archive can guide your everyday decisions and help you live a more fulfilling life.
-date: '2024-6-28'
+date: '2024-6-29'
 categories:
 - philosophy
 published: true

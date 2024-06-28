@@ -24,17 +24,6 @@
 			}
 		},
 		{
-			"src": "/posts/6-congratulations-aeon",
-			"dest": "/posts/6-congratulations-aeon/"
-		},
-		{
-			"src": "/posts/6-congratulations-aeon/",
-			"status": 308,
-			"headers": {
-				"Location": "/posts/6-congratulations-aeon"
-			}
-		},
-		{
 			"src": "/posts/7-journey-before-destination",
 			"dest": "/posts/7-journey-before-destination/"
 		},
@@ -43,6 +32,17 @@
 			"status": 308,
 			"headers": {
 				"Location": "/posts/7-journey-before-destination"
+			}
+		},
+		{
+			"src": "/posts/6-congratulations-aeon",
+			"dest": "/posts/6-congratulations-aeon/"
+		},
+		{
+			"src": "/posts/6-congratulations-aeon/",
+			"status": 308,
+			"headers": {
+				"Location": "/posts/6-congratulations-aeon"
 			}
 		},
 		{
@@ -124,11 +124,11 @@
 		"contact.html": {
 			"path": "contact"
 		},
-		"posts/6-congratulations-aeon.html": {
-			"path": "posts/6-congratulations-aeon"
-		},
 		"posts/7-journey-before-destination.html": {
 			"path": "posts/7-journey-before-destination"
+		},
+		"posts/6-congratulations-aeon.html": {
+			"path": "posts/6-congratulations-aeon"
 		},
 		"posts/4-new-domain.html": {
 			"path": "posts/4-new-domain"
