@@ -12,7 +12,15 @@ published: true
 import Gradient from './gradient.svelte'
 </script>
 
-### Gradient Images from open-props
+### ~~Gradient Images from open-props~~
+### `open-props` is no longer used
+
+Line 1 <br/>
+Line 2
+
+Line 3
+Line 4
+
 CSS used
 ```css
 .gradient {

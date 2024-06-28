@@ -4,7 +4,7 @@ const metadata = {
   "title": "Svelte Web with Markdown Processor",
   "description": "Export from a Bear Note to markdown. Example of a personal note kept during the making of this web.",
   "date": "2024-6-25",
-  "categories": ["sveltekit", "svelte"],
+  "categories": ["vercel", "svelte", "markdown"],
   "published": true
 };
 const _3_svelte_vercel_project = create_ssr_component(($$result, $$props, $$bindings, slots) => {

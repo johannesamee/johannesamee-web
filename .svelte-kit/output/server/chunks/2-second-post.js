@@ -17,13 +17,13 @@ const metadata = {
   "title": "Second Markdown Page",
   "description": "Second post on Johannes Amée Web. Example image with markdown format + some formatting.",
   "date": "2024-6-24",
-  "categories": ["sveltekit", "svelte"],
+  "categories": ["svelte", "markdown"],
   "published": true
 };
 const _2_second_post = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Mdsvex, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata), {}, {
     default: () => {
-      return `<h2 id="svelte" data-svelte-h="svelte-em4gby">Svelte</h2> <p data-svelte-h="svelte-zwt2wz">Media inside the <strong>static</strong> folder is served from <code>/</code>.</p> ${validate_component(Img, "Components.img").$$render($$result, { src: "favicon.png", alt: "Svelte" }, {}, {})} <h2 id="counter" data-svelte-h="svelte-7fd3by">Counter</h2> ${validate_component(Counter, "Counter").$$render($$result, {}, {}, {})}`;
+      return `<h2 id="svelte" data-svelte-h="svelte-em4gby">Svelte</h2> <p data-svelte-h="svelte-zwt2wz">Media inside the <strong>static</strong> folder is served from <code>/</code>.</p> ${validate_component(Img, "Components.img").$$render($$result, { src: "../favicon.png", alt: "Svelte" }, {}, {})} <h2 id="counter" data-svelte-h="svelte-7fd3by">Counter</h2> ${validate_component(Counter, "Counter").$$render($$result, {}, {}, {})}`;
     }
   })}`;
 });

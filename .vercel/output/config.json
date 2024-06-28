@@ -24,58 +24,69 @@
 			}
 		},
 		{
-			"src": "/4-new-domain",
-			"dest": "/4-new-domain/"
+			"src": "/posts/6-congratulations-aeon",
+			"dest": "/posts/6-congratulations-aeon/"
 		},
 		{
-			"src": "/4-new-domain/",
+			"src": "/posts/6-congratulations-aeon/",
 			"status": 308,
 			"headers": {
-				"Location": "/4-new-domain"
+				"Location": "/posts/6-congratulations-aeon"
 			}
 		},
 		{
-			"src": "/5-color-gradients",
-			"dest": "/5-color-gradients/"
+			"src": "/posts/4-new-domain",
+			"dest": "/posts/4-new-domain/"
 		},
 		{
-			"src": "/5-color-gradients/",
+			"src": "/posts/4-new-domain/",
 			"status": 308,
 			"headers": {
-				"Location": "/5-color-gradients"
+				"Location": "/posts/4-new-domain"
 			}
 		},
 		{
-			"src": "/3-svelte-vercel-project",
-			"dest": "/3-svelte-vercel-project/"
+			"src": "/posts/5-color-gradients",
+			"dest": "/posts/5-color-gradients/"
 		},
 		{
-			"src": "/3-svelte-vercel-project/",
+			"src": "/posts/5-color-gradients/",
 			"status": 308,
 			"headers": {
-				"Location": "/3-svelte-vercel-project"
+				"Location": "/posts/5-color-gradients"
 			}
 		},
 		{
-			"src": "/2-second-post",
-			"dest": "/2-second-post/"
+			"src": "/posts/3-svelte-vercel-project",
+			"dest": "/posts/3-svelte-vercel-project/"
 		},
 		{
-			"src": "/2-second-post/",
+			"src": "/posts/3-svelte-vercel-project/",
 			"status": 308,
 			"headers": {
-				"Location": "/2-second-post"
+				"Location": "/posts/3-svelte-vercel-project"
 			}
 		},
 		{
-			"src": "/1-first-post",
-			"dest": "/1-first-post/"
+			"src": "/posts/2-second-post",
+			"dest": "/posts/2-second-post/"
 		},
 		{
-			"src": "/1-first-post/",
+			"src": "/posts/2-second-post/",
 			"status": 308,
 			"headers": {
-				"Location": "/1-first-post"
+				"Location": "/posts/2-second-post"
+			}
+		},
+		{
+			"src": "/posts/1-first-post",
+			"dest": "/posts/1-first-post/"
+		},
+		{
+			"src": "/posts/1-first-post/",
+			"status": 308,
+			"headers": {
+				"Location": "/posts/1-first-post"
 			}
 		},
 		{
@@ -102,20 +113,23 @@
 		"contact.html": {
 			"path": "contact"
 		},
-		"4-new-domain.html": {
-			"path": "4-new-domain"
+		"posts/6-congratulations-aeon.html": {
+			"path": "posts/6-congratulations-aeon"
 		},
-		"5-color-gradients.html": {
-			"path": "5-color-gradients"
+		"posts/4-new-domain.html": {
+			"path": "posts/4-new-domain"
 		},
-		"3-svelte-vercel-project.html": {
-			"path": "3-svelte-vercel-project"
+		"posts/5-color-gradients.html": {
+			"path": "posts/5-color-gradients"
 		},
-		"2-second-post.html": {
-			"path": "2-second-post"
+		"posts/3-svelte-vercel-project.html": {
+			"path": "posts/3-svelte-vercel-project"
 		},
-		"1-first-post.html": {
-			"path": "1-first-post"
+		"posts/2-second-post.html": {
+			"path": "posts/2-second-post"
+		},
+		"posts/1-first-post.html": {
+			"path": "posts/1-first-post"
 		}
 	}
 }

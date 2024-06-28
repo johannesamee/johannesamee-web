@@ -4,7 +4,7 @@ const metadata = {
   "title": "First Markdown Page",
   "description": "First md file upload, testing markdown processor and code syntax.",
   "date": "2024-6-23",
-  "categories": ["sveltekit", "svelte"],
+  "categories": ["svelte", "markdown"],
   "published": true
 };
 const _1_first_post = create_ssr_component(($$result, $$props, $$bindings, slots) => {

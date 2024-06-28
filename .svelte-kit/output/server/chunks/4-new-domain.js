@@ -4,7 +4,7 @@ const metadata = {
   "title": "New Domain, www.johannesamee.com",
   "description": "Deploying to the new domain via vercel.",
   "date": "2024-6-26",
-  "categories": ["sveltekit", "svelte"],
+  "categories": ["vercel", "svelte"],
   "published": true
 };
 const _4_new_domain = create_ssr_component(($$result, $$props, $$bindings, slots) => {

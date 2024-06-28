@@ -50,6 +50,17 @@
       "_app/immutable/assets/5-color-gradients.6tL7uSJv.css"
     ]
   },
+  "_6-congratulations-aeon.js": {
+    "file": "chunks/6-congratulations-aeon.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ],
+    "css": [
+      "_app/immutable/assets/6-congratulations-aeon.C_RTBF2R.css"
+    ]
+  },
   "_Icon.js": {
     "file": "chunks/Icon.js",
     "imports": [
@@ -168,10 +179,10 @@
       "_ssr.js",
       "_config.js",
       "_Icon.js",
-      "_stores.js"
+      "_client.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.BdEgV44a.css"
+      "_app/immutable/assets/_layout.BRb_cOPP.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
@@ -211,29 +222,6 @@
     "src": "src/routes/+page.ts",
     "isEntry": true
   },
-  "src/routes/[slug]/+page.svelte": {
-    "file": "entries/pages/_slug_/_page.svelte.js",
-    "src": "src/routes/[slug]/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js"
-    ]
-  },
-  "src/routes/[slug]/+page.ts": {
-    "file": "entries/pages/_slug_/_page.ts.js",
-    "src": "src/routes/[slug]/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "_index.js"
-    ],
-    "dynamicImports": [
-      "_1-first-post.js",
-      "_2-second-post.js",
-      "_3-svelte-vercel-project.js",
-      "_4-new-domain.js",
-      "_5-color-gradients.js"
-    ]
-  },
   "src/routes/about/+page.svelte": {
     "file": "entries/pages/about/_page.svelte.js",
     "src": "src/routes/about/+page.svelte",
@@ -252,6 +240,7 @@
       "_3-svelte-vercel-project.js",
       "_4-new-domain.js",
       "_5-color-gradients.js",
+      "_6-congratulations-aeon.js",
       "_index.js"
     ]
   },
@@ -261,6 +250,30 @@
     "isEntry": true,
     "imports": [
       "_ssr.js"
+    ]
+  },
+  "src/routes/posts/[slug]/+page.svelte": {
+    "file": "entries/pages/posts/_slug_/_page.svelte.js",
+    "src": "src/routes/posts/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/posts/[slug]/+page.ts": {
+    "file": "entries/pages/posts/_slug_/_page.ts.js",
+    "src": "src/routes/posts/[slug]/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "dynamicImports": [
+      "_1-first-post.js",
+      "_2-second-post.js",
+      "_3-svelte-vercel-project.js",
+      "_4-new-domain.js",
+      "_5-color-gradients.js",
+      "_6-congratulations-aeon.js"
     ]
   },
   "src/routes/rss.xml/+server.ts": {

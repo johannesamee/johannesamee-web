@@ -13,11 +13,11 @@
 	"/contact": [
 		"src/routes/+layout.ts"
 	],
+	"/posts/[slug]": [
+		"src/routes/posts/[slug]/+page.ts",
+		"src/routes/+layout.ts"
+	],
 	"/rss.xml": [
 		"src/routes/rss.xml/+server.ts"
-	],
-	"/[slug]": [
-		"src/routes/[slug]/+page.ts",
-		"src/routes/+layout.ts"
 	]
 }

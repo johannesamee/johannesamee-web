@@ -2,46 +2,54 @@
 			<channel>
 				<title>Johannes Amée</title>
 				<description>SvelteKit exploration by Johannes</description>
-				<link>https://johannesamee-web.vercel.app/</link>
-				<atom:link href="https://johannesamee-web.vercel.app//rss.xml" rel="self" type="application/rss+xml"/>
+				<link>https://johannesamee.com</link>
+				<atom:link href="https://johannesamee.com/rss.xml" rel="self" type="application/rss+xml"/>
 				
+						<item>
+							<title>Congratulations Aeon!</title>
+							<description>Congratulations post to my good friend Aeon</description>
+							<link>https://johannesamee.com/6-congratulations-aeon</link>
+							<guid isPermaLink="true">https://johannesamee.com/6-congratulations-aeon</guid>
+							<pubDate>Thu, 27 Jun 2024 22:00:00 GMT</pubDate>
+						</item>
+					
 						<item>
 							<title>New Domain, www.johannesamee.com</title>
 							<description>Deploying to the new domain via vercel.</description>
-							<link>https://johannesamee-web.vercel.app//4-new-domain</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//4-new-domain</guid>
+							<link>https://johannesamee.com/4-new-domain</link>
+							<guid isPermaLink="true">https://johannesamee.com/4-new-domain</guid>
 							<pubDate>Tue, 25 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>Color Gradients and Noise Experiments</title>
 							<description>Tesing the color gradient and noise settings from open-props.</description>
-							<link>https://johannesamee-web.vercel.app//5-color-gradients</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//5-color-gradients</guid>
+							<link>https://johannesamee.com/5-color-gradients</link>
+							<guid isPermaLink="true">https://johannesamee.com/5-color-gradients</guid>
 							<pubDate>Tue, 25 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>Svelte Web with Markdown Processor</title>
 							<description>Export from a Bear Note to markdown. Example of a personal note kept during the making of this web.</description>
-							<link>https://johannesamee-web.vercel.app//3-svelte-vercel-project</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//3-svelte-vercel-project</guid>
+							<link>https://johannesamee.com/3-svelte-vercel-project</link>
+							<guid isPermaLink="true">https://johannesamee.com/3-svelte-vercel-project</guid>
 							<pubDate>Mon, 24 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>Second Markdown Page</title>
 							<description>Second post on Johannes Amée Web. Example image with markdown format + some formatting.</description>
-							<link>https://johannesamee-web.vercel.app//2-second-post</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//2-second-post</guid>
+							<link>https://johannesamee.com/2-second-post</link>
+							<guid isPermaLink="true">https://johannesamee.com/2-second-post</guid>
 							<pubDate>Sun, 23 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					
 						<item>
 							<title>First Markdown Page</title>
 							<description>First md file upload, testing markdown processor and code syntax.</description>
-							<link>https://johannesamee-web.vercel.app//1-first-post</link>
-							<guid isPermaLink="true">https://johannesamee-web.vercel.app//1-first-post</guid>
+							<link>https://johannesamee.com/1-first-post</link>
+							<guid isPermaLink="true">https://johannesamee.com/1-first-post</guid>
 							<pubDate>Sat, 22 Jun 2024 22:00:00 GMT</pubDate>
 						</item>
 					

@@ -3,7 +3,7 @@ title: New Domain, www.johannesamee.com
 description: Deploying to the new domain via vercel.
 date: '2024-6-26'
 categories:
-  - sveltekit
+  - vercel
   - svelte
 published: true
 ---

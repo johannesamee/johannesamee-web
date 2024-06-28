@@ -18,7 +18,9 @@ const metadata = {
 const _5_color_gradients = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Mdsvex, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata), {}, {
     default: () => {
-      return `<h3 id="gradient-images-from-open-props" data-svelte-h="svelte-i69ou9">Gradient Images from open-props</h3> <p data-svelte-h="svelte-1ds7gpg">CSS used</p> <!-- HTML_TAG_START -->${`<pre class="shiki poimandres" style="background-color:#1b1e28;color:#a6accd" tabindex="0"><code><span class="line"><span style="color:#E4F0FBD0;font-style:italic">.</span><span style="color:#5FB3A1;font-style:italic">gradient</span><span style="color:#A6ACCD"> &#123;</span></span>
+      return `<h3 id="gradient-images-from-open-props" data-svelte-h="svelte-q3iws"><del>Gradient Images from open-props</del></h3> <h3 id="open-props-is-no-longer-used" data-svelte-h="svelte-162pa3v"><code>open-props</code> is no longer used</h3> <p data-svelte-h="svelte-fwbkyy">Line 1 <br>
+Line 2</p> <p data-svelte-h="svelte-1q2heft">Line 3
+Line 4</p> <p data-svelte-h="svelte-1ds7gpg">CSS used</p> <!-- HTML_TAG_START -->${`<pre class="shiki poimandres" style="background-color:#1b1e28;color:#a6accd" tabindex="0"><code><span class="line"><span style="color:#E4F0FBD0;font-style:italic">.</span><span style="color:#5FB3A1;font-style:italic">gradient</span><span style="color:#A6ACCD"> &#123;</span></span>
 <span class="line"><span style="color:#ADD7FF">		background-image</span><span style="color:#A6ACCD">: var(--gradient-3), var(--noise-3);</span></span>
 <span class="line"><span style="color:#ADD7FF">		filter</span><span style="color:#A6ACCD">: var(--noise-filter-3);</span></span>
 <span class="line"><span style="color:#ADD7FF">		background-size</span><span style="color:#A6ACCD">: </span><span style="color:#ADD7FF">cover</span><span style="color:#A6ACCD">;</span></span>

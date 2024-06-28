@@ -5,6 +5,12 @@ import type { Config } from 'tailwindcss';
 import themes from 'daisyui/src/theming/themes';
 
 export default {
+  mode: 'jit',
+  purge: [
+    './.vercel/**/*.html',
+    './src/**/*.{js,ts,svelte}',
+    './src/**/**/*.{js,ts,svelte}',
+  ],
   content: ['./src/**/*.{html,js,svelte,ts}'],
   darkMode: 'selector',
   theme: {
@@ -14,11 +20,12 @@ export default {
         'sans': ['Manrope Variable'],
         'mono': ['Fira Code Variable']
       },
-      // maxWidth: theme => {
-      //   return {
-      //     'screen-sm': theme('screens.sm'),
-      //   }
-      // },
+      colors: {
+        'accent-content': {
+          DEFAULT: "#56949f",
+          hover: "#286983",
+        },
+      }
     }
   },
   plugins: [
@@ -30,12 +37,15 @@ export default {
       {
         cupcakexrosepine: {
           ...themes["cupcake"],
-          "primary": "#dfdad9",
+          "primary": '#dfdad9',
           "primary-content": "#575279",
           "secondary": "#f4ede8",
           "secondary-content": "#ea9d34",
           "accent": "#f2e0e1",
-          "accent-content": "#286983",
+          "accent-content": {
+            DEFAULT: "#286983",
+            hover: "#56949f",
+          },
           "neutral": "#d7827e",
           "neutral-content": "#575279",
           "base-100": "#fffaf3",
@@ -52,7 +62,7 @@ export default {
           "error-content": "#f4ede8",
         },
       },
-      "light", "dark", "cupcake", "autumn"
+      "light", "dark", "cupcake"
     ],
   },
 } satisfies Config
