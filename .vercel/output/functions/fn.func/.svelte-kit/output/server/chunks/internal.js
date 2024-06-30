@@ -122,8 +122,7 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html data-theme="cupcakexrosepine" lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="viewport" content="width=device-width" />\n		<link rel="icon" href="' + assets2 + `/favicon.png" />
-		<link rel="icon" href="https://fav.farm/🌭" />
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html data-theme="cupcakexrosepine" lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="viewport" content="width=device-width" />\n		<link rel="icon" href="' + assets2 + `/ja_favicon_transparent.png" />
 		<link rel="alternate" type="application/atom+xml" href="/rss.xml" />
 
 		<!-- HTML Meta Tags -->
@@ -226,7 +225,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "a464a9"
+  version_hash: "glyftn"
 };
 async function get_hooks() {
   return {};
