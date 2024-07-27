@@ -1,4 +1,4 @@
-export type Categories = 'svelte' | 'markdown' | 'vercel' | 'llm'
+export type Categories = 'svelte' | 'markdown' | 'vercel' | 'llm' | 'poetry'
 
 export type Post = {
   title: string

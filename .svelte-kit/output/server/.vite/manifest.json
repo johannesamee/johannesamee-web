@@ -66,6 +66,22 @@
       "_mdsvex.js"
     ]
   },
+  "_8-ode-to-buttoning.js": {
+    "file": "chunks/8-ode-to-buttoning.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
+  "_9-praise-the-rain.js": {
+    "file": "chunks/9-praise-the-rain.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
   "_Icon.js": {
     "file": "chunks/Icon.js",
     "imports": [
@@ -247,6 +263,8 @@
       "_5-color-gradients.js",
       "_6-congratulations-aeon.js",
       "_7-journey-before-destination.js",
+      "_8-ode-to-buttoning.js",
+      "_9-praise-the-rain.js",
       "_index.js"
     ]
   },
@@ -280,7 +298,9 @@
       "_4-new-domain.js",
       "_5-color-gradients.js",
       "_6-congratulations-aeon.js",
-      "_7-journey-before-destination.js"
+      "_7-journey-before-destination.js",
+      "_8-ode-to-buttoning.js",
+      "_9-praise-the-rain.js"
     ]
   },
   "src/routes/rss.xml/+server.ts": {

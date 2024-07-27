@@ -24,6 +24,28 @@
 			}
 		},
 		{
+			"src": "/posts/9-praise-the-rain",
+			"dest": "/posts/9-praise-the-rain/"
+		},
+		{
+			"src": "/posts/9-praise-the-rain/",
+			"status": 308,
+			"headers": {
+				"Location": "/posts/9-praise-the-rain"
+			}
+		},
+		{
+			"src": "/posts/8-ode-to-buttoning",
+			"dest": "/posts/8-ode-to-buttoning/"
+		},
+		{
+			"src": "/posts/8-ode-to-buttoning/",
+			"status": 308,
+			"headers": {
+				"Location": "/posts/8-ode-to-buttoning"
+			}
+		},
+		{
 			"src": "/posts/7-journey-before-destination",
 			"dest": "/posts/7-journey-before-destination/"
 		},
@@ -123,6 +145,12 @@
 		},
 		"contact.html": {
 			"path": "contact"
+		},
+		"posts/9-praise-the-rain.html": {
+			"path": "posts/9-praise-the-rain"
+		},
+		"posts/8-ode-to-buttoning.html": {
+			"path": "posts/8-ode-to-buttoning"
 		},
 		"posts/7-journey-before-destination.html": {
 			"path": "posts/7-journey-before-destination"
