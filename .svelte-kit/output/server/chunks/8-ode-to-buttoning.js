@@ -88,11 +88,11 @@ sliding the bones home.</p></blockquote> <p data-svelte-h="svelte-1j92c86">I fee
     }
   })}`;
 });
-const __vite_glob_0_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _8_ode_to_buttoning,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_7 as _
+  __vite_glob_0_8 as _
 };

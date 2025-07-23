@@ -15,6 +15,14 @@
       "_mdsvex.js"
     ]
   },
+  "_10-pickling-cucumbers-guide.js": {
+    "file": "chunks/10-pickling-cucumbers-guide.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_mdsvex.js"
+    ]
+  },
   "_2-second-post.js": {
     "file": "chunks/2-second-post.js",
     "isDynamicEntry": true,
@@ -203,7 +211,7 @@
       "_client.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.BqEO5ql0.css"
+      "_app/immutable/assets/_layout.BLiBHLJg.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
@@ -257,6 +265,7 @@
     "isEntry": true,
     "imports": [
       "_1-first-post.js",
+      "_10-pickling-cucumbers-guide.js",
       "_2-second-post.js",
       "_3-svelte-vercel-project.js",
       "_4-new-domain.js",
@@ -293,6 +302,7 @@
     ],
     "dynamicImports": [
       "_1-first-post.js",
+      "_10-pickling-cucumbers-guide.js",
       "_2-second-post.js",
       "_3-svelte-vercel-project.js",
       "_4-new-domain.js",

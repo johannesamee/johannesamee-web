@@ -23,11 +23,11 @@ Line 4</p> <p data-svelte-h="svelte-1ds7gpg">CSS used</p> <!-- HTML_TAG_START --
     }
   })}`;
 });
-const __vite_glob_0_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _5_color_gradients,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_4 as _
+  __vite_glob_0_5 as _
 };

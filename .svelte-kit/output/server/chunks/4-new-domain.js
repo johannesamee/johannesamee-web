@@ -14,11 +14,11 @@ const _4_new_domain = create_ssr_component(($$result, $$props, $$bindings, slots
     }
   })}`;
 });
-const __vite_glob_0_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _4_new_domain,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_3 as _
+  __vite_glob_0_4 as _
 };

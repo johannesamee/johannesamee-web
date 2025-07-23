@@ -6,6 +6,14 @@
 				<atom:link href="https://johannesamee.com/rss.xml" rel="self" type="application/rss+xml"/>
 				
 						<item>
+							<title>Johannes Cuke-usage-list</title>
+							<description>A collection of my go-to cucumber pickling recipes</description>
+							<link>https://johannesamee.com/10-pickling-cucumbers-guide</link>
+							<guid isPermaLink="true">https://johannesamee.com/10-pickling-cucumbers-guide</guid>
+							<pubDate>Sat, 27 Jul 2024 22:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
 							<title>Praise the Rain, by Joy Harjo</title>
 							<description>What does praise mean to you? Joy Harjo gives the perspective that one can and should praise no matter how they feel.</description>
 							<link>https://johannesamee.com/9-praise-the-rain</link>

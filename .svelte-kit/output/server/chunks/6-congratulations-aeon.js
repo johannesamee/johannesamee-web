@@ -34,11 +34,11 @@ The perfect balance of heart and mind. <br></p> <p data-svelte-h="svelte-jgixy0"
     }
   })}`;
 });
-const __vite_glob_0_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _6_congratulations_aeon,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_5 as _
+  __vite_glob_0_6 as _
 };

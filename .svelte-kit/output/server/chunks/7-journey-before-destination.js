@@ -14,11 +14,11 @@ const _7_journey_before_destination = create_ssr_component(($$result, $$props, $
     }
   })}`;
 });
-const __vite_glob_0_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _7_journey_before_destination,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_6 as _
+  __vite_glob_0_7 as _
 };

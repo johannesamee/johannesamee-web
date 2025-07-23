@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.DZYe-s-o.js",
+    "file": "_app/immutable/entry/app.C-l95Tq7.js",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
     "imports": [
@@ -18,20 +18,20 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.C-84TYBx.js",
+    "file": "_app/immutable/nodes/0.COxjhMoa.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.uuNsLXlX.js",
-      "_stores.5ZLs0aGY.js",
+      "_stores.D1yil60z.js",
       "_index.BKg8bbRF.js",
       "_Icon.DTWVIL2k.js",
       "_spread.CgU5AtxT.js",
-      "_entry.LW09VBSM.js"
+      "_entry.BMzJIJuA.js"
     ],
     "css": [
-      "_app/immutable/assets/0.OCSAYiwF.css"
+      "_app/immutable/assets/0.DIjS8G1I.css"
     ],
     "assets": [
       "_app/immutable/assets/manrope-cyrillic-wght-normal.C1zWlyYG.woff2",
@@ -48,21 +48,21 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.GFQAY3Dl.js",
+    "file": "_app/immutable/nodes/1.CBoclJIP.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.uuNsLXlX.js",
       "_index.BKg8bbRF.js",
-      "_stores.5ZLs0aGY.js"
+      "_stores.D1yil60z.js"
     ],
     "css": [
       "_app/immutable/assets/1.COZ97Kw5.css"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.BDjiRqyo.js",
+    "file": "_app/immutable/nodes/2.D5GFeh-U.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -70,7 +70,7 @@
       "_scheduler.uuNsLXlX.js",
       "_index.BKg8bbRF.js",
       "_Icon.DTWVIL2k.js",
-      "_stores.5ZLs0aGY.js",
+      "_stores.D1yil60z.js",
       "_spread.CgU5AtxT.js"
     ]
   },
@@ -95,7 +95,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/5.js": {
-    "file": "_app/immutable/nodes/5.C8YV_bnM.js",
+    "file": "_app/immutable/nodes/5.IQDYJOS7.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/5.js",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -107,6 +107,7 @@
     ],
     "dynamicImports": [
       "src/posts/1-first-post.md",
+      "src/posts/10-pickling-cucumbers-guide.md",
       "src/posts/2-second-post.md",
       "src/posts/3-svelte-vercel-project.md",
       "src/posts/4-new-domain.md",
@@ -128,8 +129,8 @@
   "_control.CYgJF_JY.js": {
     "file": "_app/immutable/chunks/control.CYgJF_JY.js"
   },
-  "_entry.LW09VBSM.js": {
-    "file": "_app/immutable/chunks/entry.LW09VBSM.js",
+  "_entry.BMzJIJuA.js": {
+    "file": "_app/immutable/chunks/entry.BMzJIJuA.js",
     "imports": [
       "_scheduler.uuNsLXlX.js",
       "_control.CYgJF_JY.js"
@@ -157,10 +158,10 @@
   "_spread.CgU5AtxT.js": {
     "file": "_app/immutable/chunks/spread.CgU5AtxT.js"
   },
-  "_stores.5ZLs0aGY.js": {
-    "file": "_app/immutable/chunks/stores.5ZLs0aGY.js",
+  "_stores.D1yil60z.js": {
+    "file": "_app/immutable/chunks/stores.D1yil60z.js",
     "imports": [
-      "_entry.LW09VBSM.js"
+      "_entry.BMzJIJuA.js"
     ]
   },
   "node_modules/.pnpm/@fontsource-variable+fira-code@5.0.18/node_modules/@fontsource-variable/fira-code/files/fira-code-cyrillic-ext-wght-normal.woff2": {
@@ -208,16 +209,27 @@
     "src": "node_modules/.pnpm/@fontsource-variable+manrope@5.0.20/node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2"
   },
   "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.BLnQZt5B.js",
+    "file": "_app/immutable/entry/start.BcTQPMR3.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1__svelte@4.2.10_vite@5.1.1/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.LW09VBSM.js"
+      "_entry.BMzJIJuA.js"
     ]
   },
   "src/posts/1-first-post.md": {
     "file": "_app/immutable/chunks/1-first-post.DIDUjebD.js",
     "src": "src/posts/1-first-post.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.uuNsLXlX.js",
+      "_index.BKg8bbRF.js",
+      "_spread.CgU5AtxT.js",
+      "_mdsvex.BX0zoivI.js"
+    ]
+  },
+  "src/posts/10-pickling-cucumbers-guide.md": {
+    "file": "_app/immutable/chunks/10-pickling-cucumbers-guide.DCITFLbf.js",
+    "src": "src/posts/10-pickling-cucumbers-guide.md",
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.uuNsLXlX.js",

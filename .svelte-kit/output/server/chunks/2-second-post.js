@@ -24,11 +24,11 @@ Reserved for later use.</p> <hr> <p data-svelte-h="svelte-zwt2wz">Media inside t
     }
   })}`;
 });
-const __vite_glob_0_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _2_second_post,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_1 as _
+  __vite_glob_0_2 as _
 };

@@ -35,11 +35,11 @@ Praise the rain; it brings more rain.</p></blockquote> <p data-svelte-h="svelte-
     }
   })}`;
 });
-const __vite_glob_0_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _9_praise_the_rain,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 export {
-  __vite_glob_0_8 as _
+  __vite_glob_0_9 as _
 };

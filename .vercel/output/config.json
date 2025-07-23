@@ -24,6 +24,17 @@
 			}
 		},
 		{
+			"src": "/posts/10-pickling-cucumbers-guide",
+			"dest": "/posts/10-pickling-cucumbers-guide/"
+		},
+		{
+			"src": "/posts/10-pickling-cucumbers-guide/",
+			"status": 308,
+			"headers": {
+				"Location": "/posts/10-pickling-cucumbers-guide"
+			}
+		},
+		{
 			"src": "/posts/9-praise-the-rain",
 			"dest": "/posts/9-praise-the-rain/"
 		},
@@ -145,6 +156,9 @@
 		},
 		"contact.html": {
 			"path": "contact"
+		},
+		"posts/10-pickling-cucumbers-guide.html": {
+			"path": "posts/10-pickling-cucumbers-guide"
 		},
 		"posts/9-praise-the-rain.html": {
 			"path": "posts/9-praise-the-rain"
