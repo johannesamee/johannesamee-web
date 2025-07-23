@@ -1,6 +1,6 @@
 ---
 title: Johannes Cuke-usage-list
-description: A collection of some cuke recipes
+description: A collection of cuke recipes
 date: '2025-7-23'
 categories:
   - cooking
