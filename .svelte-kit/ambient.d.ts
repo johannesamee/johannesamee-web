@@ -62,9 +62,9 @@ declare module '$env/static/private' {
 	export const npm_config_node_gyp: string;
 	export const XPC_SERVICE_NAME: string;
 	export const pnpm_config_verify_deps_before_run: string;
-	export const SHLVL: string;
-	export const ZSH_COMPDUMP: string;
 	export const HOME: string;
+	export const ZSH_COMPDUMP: string;
+	export const SHLVL: string;
 	export const XDG_CONFIG_HOME: string;
 	export const LOGNAME: string;
 	export const ALACRITTY_WINDOW_ID: string;
@@ -144,9 +144,9 @@ declare module '$env/dynamic/private' {
 		npm_config_node_gyp: string;
 		XPC_SERVICE_NAME: string;
 		pnpm_config_verify_deps_before_run: string;
-		SHLVL: string;
-		ZSH_COMPDUMP: string;
 		HOME: string;
+		ZSH_COMPDUMP: string;
+		SHLVL: string;
 		XDG_CONFIG_HOME: string;
 		LOGNAME: string;
 		ALACRITTY_WINDOW_ID: string;

@@ -1,7 +1,7 @@
 ---
 title: Johannes Cuke-usage-list
-description: A collection of my go-to cucumber pickling recipes
-date: '2024-7-28'
+description: A collection of some cuke recipes
+date: '2025-7-23'
 categories:
   - cooking
   - cucumbers
@@ -12,8 +12,6 @@ published: true
 Some good uses for the cukes.
 
 ### 1. Garlic Dill Pickles (Quick Method)
-from *[Pro Home Cooks](https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers)*
-
 **Ingredients:**  
 450-900 g cucumbers, washed  
 4-5 cloves garlic, peeled  
@@ -31,6 +29,8 @@ Fill jar halfway with vinegar, then top with water
 Pour liquid into a pot, add salt and sugar, simmer until dissolved  
 Pour hot brine over cucumbers, seal and label  
 Refrigerate once cooled, let brine for at least one day
+
+from *[Pro Home Cooks](https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers)*
 
 ## 2. Bread & Butter Pickles
 **Ingredients:**  
@@ -51,6 +51,8 @@ Let cool for a minute, then pour hot brine over cucumbers
 Seal, label, and refrigerate once cooled  
 Let brine for at least one day  
 
+from *[Pro Home Cooks](https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers)*
+
 ## 3. Half-Sour Pickles (Fermented)
 **Ingredients:**  
 450-900 g cucumbers, washed  
@@ -64,6 +66,8 @@ Fill with water to top, note water weight in grams
 Multiply water weight by 0.04 for salt amount needed  
 Add calculated salt, seal and shake to dissolve  
 Ferment 1-2 days at room temperature, then refrigerate  
+
+from *[Pro Home Cooks](https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers)*
 
 ## 4. Full Sour Pickles (Fermented)
 **Ingredients:**  
@@ -90,6 +94,8 @@ Ferment 3-5 days at room temperature (longer = more sour), then refrigerate
 15 ml (1 tablespoon) soy sauce  
 5 ml (1 teaspoon) salt  
 15 ml (1 tablespoon) water  
+
+from *[Pro Home Cooks](https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers)*
 
 **Instructions:**  
 Slice cucumbers into coins  
@@ -122,6 +128,8 @@ Distribute liquid evenly among jars
 Process in 85°C water bath for 30-40 minutes using canning tongs  
 Cool on towel - jars will "pop" when properly sealed  
 Store in cool, dark place for long-term storage  
+
+from *[Pro Home Cooks](https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers)*
 
 ## 7. Smashed Asian Chili Cucumber Salad
 

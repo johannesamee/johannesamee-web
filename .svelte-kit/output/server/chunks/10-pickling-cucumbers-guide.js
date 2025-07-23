@@ -2,15 +2,15 @@ import { c as create_ssr_component, v as validate_component } from "./ssr.js";
 import { M as Mdsvex } from "./mdsvex.js";
 const metadata = {
   "title": "Johannes Cuke-usage-list",
-  "description": "A collection of my go-to cucumber pickling recipes",
-  "date": "2024-7-28",
+  "description": "A collection of some cuke recipes",
+  "date": "2025-7-23",
   "categories": ["cooking", "cucumbers", "preservation"],
   "published": true
 };
 const _10_pickling_cucumbers_guide = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Mdsvex, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata), {}, {
     default: () => {
-      return `<h1 id="johannes-cuke-uses" data-svelte-h="svelte-a8xzid">Johannes Cuke-Uses</h1> <p data-svelte-h="svelte-19hg1xk">Some good uses for the cukes.</p> <h3 id="1-garlic-dill-pickles-quick-method" data-svelte-h="svelte-yqtjjq">1. Garlic Dill Pickles (Quick Method)</h3> <p data-svelte-h="svelte-59ln18">from <em><a href="https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers" rel="nofollow">Pro Home Cooks</a></em></p> <p data-svelte-h="svelte-13c935k"><strong>Ingredients:</strong><br>
+      return `<h1 id="johannes-cuke-uses" data-svelte-h="svelte-a8xzid">Johannes Cuke-Uses</h1> <p data-svelte-h="svelte-19hg1xk">Some good uses for the cukes.</p> <h3 id="1-garlic-dill-pickles-quick-method" data-svelte-h="svelte-yqtjjq">1. Garlic Dill Pickles (Quick Method)</h3> <p data-svelte-h="svelte-13c935k"><strong>Ingredients:</strong><br>
 450-900 g cucumbers, washed<br>
 4-5 cloves garlic, peeled<br>
 1/4 cup sliced onions<br>
@@ -24,7 +24,7 @@ Pack cucumbers, garlic, onions, and dill into a clean 950 ml mason jar<br>
 Fill jar halfway with vinegar, then top with water<br>
 Pour liquid into a pot, add salt and sugar, simmer until dissolved<br>
 Pour hot brine over cucumbers, seal and label<br>
-Refrigerate once cooled, let brine for at least one day</p> <h2 id="2-bread--butter-pickles" data-svelte-h="svelte-1ls2z36">2. Bread &amp; Butter Pickles</h2> <p data-svelte-h="svelte-11v5kqo"><strong>Ingredients:</strong><br>
+Refrigerate once cooled, let brine for at least one day</p> <p data-svelte-h="svelte-59ln18">from <em><a href="https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers" rel="nofollow">Pro Home Cooks</a></em></p> <h2 id="2-bread--butter-pickles" data-svelte-h="svelte-1ls2z36">2. Bread &amp; Butter Pickles</h2> <p data-svelte-h="svelte-11v5kqo"><strong>Ingredients:</strong><br>
 450-900 g cucumbers, washed<br>
 60 ml sliced onion<br>
 240 ml sugar<br>
@@ -38,7 +38,7 @@ Pack sliced cucumbers and onions into a 950 ml mason jar<br>
 Bring sugar, vinegar, water, salt, peppercorns, and coriander to a boil<br>
 Let cool for a minute, then pour hot brine over cucumbers<br>
 Seal, label, and refrigerate once cooled<br>
-Let brine for at least one day</p> <h2 id="3-half-sour-pickles-fermented" data-svelte-h="svelte-1fwagjw">3. Half-Sour Pickles (Fermented)</h2> <p data-svelte-h="svelte-tia35y"><strong>Ingredients:</strong><br>
+Let brine for at least one day</p> <p data-svelte-h="svelte-59ln18">from <em><a href="https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers" rel="nofollow">Pro Home Cooks</a></em></p> <h2 id="3-half-sour-pickles-fermented" data-svelte-h="svelte-1fwagjw">3. Half-Sour Pickles (Fermented)</h2> <p data-svelte-h="svelte-tia35y"><strong>Ingredients:</strong><br>
 450-900 g cucumbers, washed<br>
 Water (calculated amount)<br>
 Salt (4% of water weight)</p> <p data-svelte-h="svelte-1653wlq"><strong>Instructions:</strong><br>
@@ -47,7 +47,7 @@ Weigh jar with cucumbers, tare scale to zero<br>
 Fill with water to top, note water weight in grams<br>
 Multiply water weight by 0.04 for salt amount needed<br>
 Add calculated salt, seal and shake to dissolve<br>
-Ferment 1-2 days at room temperature, then refrigerate</p> <h2 id="4-full-sour-pickles-fermented" data-svelte-h="svelte-eey2iv">4. Full Sour Pickles (Fermented)</h2> <p data-svelte-h="svelte-8yw537"><strong>Ingredients:</strong><br>
+Ferment 1-2 days at room temperature, then refrigerate</p> <p data-svelte-h="svelte-59ln18">from <em><a href="https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers" rel="nofollow">Pro Home Cooks</a></em></p> <h2 id="4-full-sour-pickles-fermented" data-svelte-h="svelte-eey2iv">4. Full Sour Pickles (Fermented)</h2> <p data-svelte-h="svelte-8yw537"><strong>Ingredients:</strong><br>
 450 g cucumbers, washed<br>
 Water (calculated amount)<br>
 Salt (5% of water weight)</p> <p data-svelte-h="svelte-14l5tka"><strong>Instructions:</strong><br>
@@ -65,7 +65,7 @@ Ferment 3-5 days at room temperature (longer = more sour), then refrigerate</p> 
 60 ml gochugaru flakes<br>
 15 ml (1 tablespoon) soy sauce<br>
 5 ml (1 teaspoon) salt<br>
-15 ml (1 tablespoon) water</p> <p data-svelte-h="svelte-3wzuom"><strong>Instructions:</strong><br>
+15 ml (1 tablespoon) water</p> <p data-svelte-h="svelte-59ln18">from <em><a href="https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers" rel="nofollow">Pro Home Cooks</a></em></p> <p data-svelte-h="svelte-3wzuom"><strong>Instructions:</strong><br>
 Slice cucumbers into coins<br>
 Blend ginger, onion, garlic, pear, gochugaru, soy sauce, salt, and water into paste<br>
 Toss cucumber slices with paste until well coated<br>
@@ -87,7 +87,7 @@ Whisk vinegar, water, salt, sugar, coriander, and peppercorns until dissolved<br
 Distribute liquid evenly among jars<br>
 Process in 85°C water bath for 30-40 minutes using canning tongs<br>
 Cool on towel - jars will “pop” when properly sealed<br>
-Store in cool, dark place for long-term storage</p> <h2 id="7-smashed-asian-chili-cucumber-salad" data-svelte-h="svelte-xbp9j">7. Smashed Asian Chili Cucumber Salad</h2> <p data-svelte-h="svelte-d78xhr"><strong>Ingredients:</strong><br>
+Store in cool, dark place for long-term storage</p> <p data-svelte-h="svelte-59ln18">from <em><a href="https://lifebymikeg.com/blogs/all/beginners-guide-to-pickling-cucumbers" rel="nofollow">Pro Home Cooks</a></em></p> <h2 id="7-smashed-asian-chili-cucumber-salad" data-svelte-h="svelte-xbp9j">7. Smashed Asian Chili Cucumber Salad</h2> <p data-svelte-h="svelte-d78xhr"><strong>Ingredients:</strong><br>
 15 ml (1 tablespoon) peeled sesame seeds<br>
 2 large cucumbers or 1 regular cucumber (about 450g)<br>
 15 ml (1 tablespoon) sesame oil<br>
