@@ -1,7 +1,7 @@
 ---
 title: Johannes Cuke-usage-list
-description: A collection of my go-to cucumber pickling recipes
-date: '2024-7-28'
+description: A collection of cuke recipes
+date: '2025-7-23'
 categories:
   - cooking
   - cucumbers
