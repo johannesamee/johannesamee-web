@@ -1,6 +1,6 @@
 +++
 date = '2024-06-29'
-draft = true
+draft = false
 title = 'Journey before destination'
 summary = 'How "Life Before Death, Strength Before Weakness, Journey Before Destination" Can Transform Your Daily Life'
 description = 'How "Life Before Death, Strength Before Weakness, Journey Before Destination" Can Transform Your Daily Life'

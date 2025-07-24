@@ -1,6 +1,6 @@
 +++
 date = '2024-06-26'
-draft = true
+draft = false
 title = 'New domain, johannesamee.com'
 summary = 'Fresh out the oven, new domain'
 description = 'Fresh out the oven, new domain'

@@ -1,6 +1,6 @@
 +++
 date = '2024-07-27'
-draft = true
+draft = false
 title = '"Praise the Rain" by Joy Harjo'
 description = 'What does praise mean to you? Joy Harjo gives the perspective that one can and should praise no matter how they feel.'
 summary = 'What does praise mean to you? Joy Harjo gives the perspective that one can and should praise no matter how they feel.'

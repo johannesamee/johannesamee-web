@@ -1,6 +1,6 @@
 +++
 date = '2024-07-26'
-draft = true
+draft = false
 title = '"Ode to Buttoning and Unbuttoning My Shirt" by Ross Gay'
 description = 'Like Epictetus calls us to see the mortality in our family and friends, Ross Gay tells us about the importance to be present in the small things so that we can also be present in the bigger things.'
 summary = 'Like Epictetus calls us to see the mortality in our family and friends, Ross Gay tells us about the importance to be present in the small things so that we can also be present in the bigger things.'
