@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Johannes Amée</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Johannes Amée</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Johannes Cukes Uses</title>
+      <link>http://localhost:1313/notebook/johannes-cukes-uses/</link>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/johannes-cukes-uses/</guid>
+      <description>A collection of cuke recipes for all those juicy cukes that needs to be harvested.</description>
+    </item>
+    <item>
+      <title>&#34;Praise the Rain&#34; by Joy Harjo</title>
+      <link>http://localhost:1313/notebook/praise-the-rain/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/praise-the-rain/</guid>
+      <description>What does praise mean to you? Joy Harjo gives the perspective that one can and should praise no matter how they feel.</description>
+    </item>
+    <item>
+      <title>&#34;Ode to Buttoning and Unbuttoning My Shirt&#34; by Ross Gay</title>
+      <link>http://localhost:1313/notebook/ode-to-buttoning-and-unbuttoning-my-shirt/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/ode-to-buttoning-and-unbuttoning-my-shirt/</guid>
+      <description>Like Epictetus calls us to see the mortality in our family and friends, Ross Gay tells us about the importance to be present in the small things so that we can also be present in the bigger things.</description>
+    </item>
+    <item>
+      <title>Journey before destination</title>
+      <link>http://localhost:1313/notebook/second-post/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/second-post/</guid>
+      <description>How &amp;ldquo;Life Before Death, Strength Before Weakness, Journey Before Destination&amp;rdquo; Can Transform Your Daily Life</description>
+    </item>
+    <item>
+      <title>New domain, johannesamee.com</title>
+      <link>http://localhost:1313/notebook/first-post/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/first-post/</guid>
+      <description>Fresh out the oven, new domain</description>
+    </item>
+  </channel>
+</rss>

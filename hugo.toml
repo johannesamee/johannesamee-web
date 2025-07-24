@@ -1,0 +1,82 @@
+baseURL = 'https://www.johannesamee.com/'
+languageCode = 'en-us'
+title = 'Johannes Amée'
+contentDir = 'content'
+
+[module]
+[[module.imports]]
+path = "github.com/tomfran/typo"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Ideas, notes and whatever else Johannes publish."
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hej there.'
+homeIntroContent = """
+Ideas, notes and whatever else Johannes publish.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Notebook'
+homeCollection = 'notebook'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = false
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/johannes-am%C3%A9e-bj%C3%B6rkdahl-ab7495a9"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/johannesamee"
+
+[[params.social]]
+name = "rss"
+url = "/index.xml"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "notebook"
+url = "/notebook"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
