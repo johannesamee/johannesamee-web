@@ -2,27 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.johannesamee.com/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notebook/johannes-cukes-uses/</loc>
+    <loc>https://www.johannesamee.com/notebook/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notebook/</loc>
-    <lastmod>2025-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notebook/praise-the-rain/</loc>
-    <lastmod>2024-07-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notebook/ode-to-buttoning-and-unbuttoning-my-shirt/</loc>
-    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notebook/second-post/</loc>
-    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notebook/first-post/</loc>
-    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.johannesamee.com/tags/</loc>
   </url>
 </urlset>
