@@ -1,6 +1,6 @@
 +++  
 date = '2025-07-25'  
-draft = true  
+draft = false  
 title = 'Integrating Obsidian to Hugo workflow'  
 description = 'How I integrated Obsidian as my editor of choice to my Hugo workflow.'  
 summary = 'How I integrated Obsidian as my editor of choice to my Hugo workflow.'  
