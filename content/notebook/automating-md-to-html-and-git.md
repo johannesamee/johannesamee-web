@@ -64,9 +64,7 @@ git commit --file -
 ```
 
 Below is the gcm function located in fish/functions
-<details>
-  <summary>Show code</summary>
-{{< highlight fish >}}
+{{< collapsiblecode summary="Show code" lang="fish" >}}
 function gcm
   # Check if llm is installed, if not, install it
   if not type -q llm
@@ -173,5 +171,4 @@ Don't wrap your response in backticks or any other characters.
       end
   end
 end
-{{< /highlight >}}
-</details>
+{{< /collapsiblecode >}}
