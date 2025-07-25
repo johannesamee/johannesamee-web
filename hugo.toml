@@ -18,6 +18,7 @@ description = "Ideas, notes and whatever else Johannes publish."
 theme = 'auto'
 colorPalette = 'default'
 hideHeader = false
+showFooter = false
 
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hej there.'
