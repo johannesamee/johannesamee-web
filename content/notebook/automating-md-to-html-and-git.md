@@ -16,12 +16,12 @@ curl -Lo ~/.config/fish/functions/gcm.fish https://gist.githubusercontent.com/wi
 Extend the notebook function in fish config
 ```fish
 function notebook
-  if test (count $argv) -lt 2
-    echo "Usage: notebook new TITLE"
-    return 1
-  end
   set cmd $argv[1]
   if test $cmd = "new"
+    if test (count $argv) -lt 2
+      echo "Usage: notebook new TITLE"
+      return 1
+    end
     set title $argv[2]
     cd ~/Documents/repos/johannesamee-web
     mkdir -p content/notebook
@@ -31,8 +31,20 @@ function notebook
   else if test $cmd = "deploy"
     cd ~/Documents/repos/johannesamee-web
     git add content/notebook
-    gcm -- && git push origin main
-    echo "Changes committed and pushed."
+    # Check for staged changes
+    if test (git diff --cached --quiet; echo $status) -eq 1
+      if gcm --
+        git push origin main
+        echo "Changes committed and pushed."
+      else
+        echo "gcm failed, using manual commit message."
+        git commit -am "notebook: update"
+        git push origin main
+        echo "Changes committed and pushed with manual message."
+      end
+    else
+      echo "No staged changes to commit."
+    end
   else
     echo "Unknown subcommand: $cmd"
     return 2
