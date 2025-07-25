@@ -1,0 +1,6 @@
+<details>
+  <summary>{{ .Get "summary" | default "Show code" }}</summary>
+  {{- $lang := .Get "lang" | default "text" -}}
+  {{- $inner := .Inner | default "" -}}
+  {{ highlight $inner $lang "" }}
+</details> 

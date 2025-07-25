@@ -72,6 +72,10 @@ url = "/about"
 [markup.highlight]
 style = 'algol'
 
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
 # Giscus comments
 [params.giscus]
 enable = false

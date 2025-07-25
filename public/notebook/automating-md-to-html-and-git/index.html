@@ -2,17 +2,17 @@
 <html lang="en-us"
   dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=52813&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
 
 
-<link rel="icon" type="image/ico" href="http://localhost:1313//favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313//android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="http://localhost:52813//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:52813//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:52813//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:52813//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:52813//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -24,12 +24,13 @@
     
 </title>
 
-<link rel="canonical" href="http://localhost:1313/notebook/automating-md-to-html-and-git/"/>
+<link rel="canonical" href="http://localhost:52813/notebook/automating-md-to-html-and-git/"/>
 
-<meta property="og:url" content="http://localhost:1313/notebook/automating-md-to-html-and-git/">
+<meta property="og:url" content="http://localhost:52813/notebook/automating-md-to-html-and-git/">
   <meta property="og:site_name" content="Johannes Amée">
   <meta property="og:title" content="Automating Md to Html and Git">
-  <meta property="og:description" content="Draft header # brew install llm llm keys set anthropic curl -Lo ~/.config/fish/functions/gcm.fish https://gist.githubusercontent.com/wipash/1d9a92006643ac5823219c5c6f20da89/raw/gcm-llm.fish">
+  <meta property="og:description" content="Draft header # brew install llm llm keys set anthropic curl -Lo ~/.config/fish/functions/gcm.fish https://gist.githubusercontent.com/wipash/1d9a92006643ac5823219c5c6f20da89/raw/gcm-llm.fish Extend the notebook function in fish config
+function notebook set cmd $argv[1] if test $cmd = &#34;new&#34; if test (count $argv) -lt 2 echo &#34;Usage: notebook new TITLE&#34; return 1 end set title $argv[2] cd ~/Documents/repos/johannesamee-web mkdir -p content/notebook set path &#34;notebook/$title.md&#34; hugo new $path nvim &#34;content/notebook/$title.md&#34; else if test $cmd = &#34;deploy&#34; cd ~/Documents/repos/johannesamee-web git add content/notebook # Check for staged changes if test (git diff --cached --quiet; echo $status) -eq 1 if gcm -- git push origin main echo &#34;Changes committed and pushed.&#34; else echo &#34;gcm failed, using manual commit message.&#34; git commit -am &#34;notebook: update&#34; git push origin main echo &#34;Changes committed and pushed with manual message.&#34; end else echo &#34;No staged changes to commit.&#34; end else echo &#34;Unknown subcommand: $cmd&#34; return 2 end end abbr -a nb &#39;notebook new&#39; abbr -a nd &#39;notebook deploy&#39; Also changing the gcm script and removing args from the commit echos.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="notebook">
@@ -73,7 +74,7 @@
     
 
     <h1 class="header-title">
-        <a href="http://localhost:1313/">Johannes Amée</a>
+        <a href="http://localhost:52813/">Johannes Amée</a>
     </h1>
 
     <div class="flex">
@@ -179,7 +180,160 @@
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fish" data-lang="fish"><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">brew</span> install llm
 </span></span><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">llm</span> keys set <span style="color:#666;font-weight:bold;font-style:italic">anthropic</span>
 </span></span><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">curl</span> -Lo ~/.config/<span style="font-weight:bold;font-style:italic">fish</span>/<span style="font-weight:bold;font-style:italic">functions</span>/gcm.<span style="font-weight:bold;font-style:italic">fish </span>https://gist.githubusercontent.com/wipash/1d9a92006643ac5823219c5c6f20da89/raw/gcm-llm.<span style="font-weight:bold;font-style:italic">fish</span>
+</span></span></code></pre></div><p>Extend the notebook function in fish config</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fish" data-lang="fish"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">function</span> <span style="color:#666;font-weight:bold;font-style:italic">notebook</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">cmd</span> <span style="color:#666;font-weight:bold;font-style:italic">$argv</span>[1]
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">test</span> <span style="color:#666;font-weight:bold;font-style:italic">$cmd</span> = <span style="color:#666;font-style:italic">&#34;new&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">test</span> (<span style="color:#666;font-weight:bold;font-style:italic">count</span> <span style="color:#666;font-weight:bold;font-style:italic">$argv</span>) -lt 2
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Usage: notebook new TITLE&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">return</span> 1
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">title</span> <span style="color:#666;font-weight:bold;font-style:italic">$argv</span>[2]
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">cd</span> ~/Documents/repos/johannesamee-web
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-weight:bold;font-style:italic">mkdir</span> -p content/notebook
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">path</span> <span style="color:#666;font-style:italic">&#34;notebook/</span><span style="color:#666;font-weight:bold;font-style:italic">$title</span><span style="color:#666;font-style:italic">.md&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-weight:bold;font-style:italic">hugo</span> new <span style="color:#666;font-weight:bold;font-style:italic">$path</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-weight:bold;font-style:italic">nvim</span> <span style="color:#666;font-style:italic">&#34;content/notebook/</span><span style="color:#666;font-weight:bold;font-style:italic">$title</span><span style="color:#666;font-style:italic">.md&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">else</span> <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">test</span> <span style="color:#666;font-weight:bold;font-style:italic">$cmd</span> = <span style="color:#666;font-style:italic">&#34;deploy&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">cd</span> ~/Documents/repos/johannesamee-web
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-weight:bold;font-style:italic">git</span> add content/notebook
+</span></span><span style="display:flex;"><span>    <span style="color:#888;font-style:italic"># Check for staged changes
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>    <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">test</span> (<span style="color:#666;font-weight:bold;font-style:italic">git</span> diff --cached --quiet; <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-weight:bold;font-style:italic">$status</span>) -eq 1
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">if</span> gcm --
+</span></span><span style="display:flex;"><span>        <span style="color:#666;font-weight:bold;font-style:italic">git</span> push origin main
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Changes committed and pushed.&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;gcm failed, using manual commit message.&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#666;font-weight:bold;font-style:italic">git</span> commit -am <span style="color:#666;font-style:italic">&#34;notebook: update&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#666;font-weight:bold;font-style:italic">git</span> push origin main
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Changes committed and pushed with manual message.&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;No staged changes to commit.&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Unknown subcommand: </span><span style="color:#666;font-weight:bold;font-style:italic">$cmd</span><span style="color:#666;font-style:italic">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">return</span> 2
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">abbr</span> -a nb <span style="color:#666;font-style:italic">&#39;notebook new&#39;</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">abbr</span> -a nd <span style="color:#666;font-style:italic">&#39;notebook deploy&#39;</span>
+</span></span></code></pre></div><p>Also changing the gcm script and removing args from the commit echos.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fish" data-lang="fish"><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">git</span> commit <span style="color:#666;font-weight:bold;font-style:italic">$argv</span> --file -
+</span></span></code></pre></div><p>changed to</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fish" data-lang="fish"><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">git</span> commit --file -
+</span></span></code></pre></div><p>Below is the gcm function located in fish/functions
+<details>
+  <summary>Show code</summary><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fish" data-lang="fish"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">function</span> <span style="color:#666;font-weight:bold;font-style:italic">gcm</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#888;font-style:italic"># Check if llm is installed, if not, install it
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>  <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">not</span> <span style="font-weight:bold;font-style:italic">type</span> -q llm
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;&#39;llm&#39; is not installed. Attempting to install it using brew...&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">if</span> brew install llm
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;&#39;llm&#39; installed successfully.&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Failed to install &#39;llm&#39;. Please install it manually and try again.&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">return</span> 1
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#888;font-style:italic"># Check if an API key is set up for llm
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>  <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">llm_keys</span> (<span style="color:#666;font-weight:bold;font-style:italic">llm</span> keys)
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">test</span> <span style="color:#666;font-style:italic">&#34;</span><span style="color:#666;font-weight:bold;font-style:italic">$llm_keys</span><span style="color:#666;font-style:italic">&#34;</span> = <span style="color:#666;font-style:italic">&#34;No keys found&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;No API key found for &#39;llm&#39;. You need to set it up.&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#666;font-weight:bold;font-style:italic">llm</span> keys set <span style="color:#666;font-weight:bold;font-style:italic">openai</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">test</span> <span style="color:#666;font-weight:bold;font-style:italic">$status</span> -ne 0
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Failed to set up the OpenAI key. Please try again manually.&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">return</span> 1
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;OpenAI key set successfully.&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#888;font-style:italic"># Function to generate commit message
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>  <span style="font-weight:bold;text-decoration:underline">function</span> <span style="color:#666;font-weight:bold;font-style:italic">generate_commit_message</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">set</span> -l <span style="color:#666;font-weight:bold;font-style:italic">prompt_text</span> <span style="color:#666;font-style:italic">&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">Below is a diff of all changes, coming from the command:
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">```
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">git diff -U1000 --cached
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">```
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">Please generate a concise, one-line commit message that accurately summarises all the changes, following the
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">Conventional Commits style.
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">Follow this by an empty line, then a short, terse description in one sentences of the changes contained within
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">this commit, only covering detail not included in the summary. The description line should contain no capitals
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">or punctuation, and be as brief and blunt as possible.
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">Don&#39;t wrap your response in backticks or any other characters.
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">----------
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">set</span> -l <span style="color:#666;font-weight:bold;font-style:italic">diff_output</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;font-style:italic">contains</span> -- -a <span style="color:#666;font-weight:bold;font-style:italic">$argv</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">diff_output</span> (<span style="color:#666;font-weight:bold;font-style:italic">git</span> diff -U1000 HEAD)
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">diff_output</span> (<span style="color:#666;font-weight:bold;font-style:italic">git</span> diff -U1000 --cached)
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">prompt_text</span> <span style="color:#666;font-style:italic">&#34;</span><span style="color:#666;font-weight:bold;font-style:italic">$prompt_text$diff_output</span><span style="color:#666;font-style:italic">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-weight:bold;font-style:italic">$prompt_text</span> | <span style="color:#666;font-weight:bold;font-style:italic">llm</span> | <span style="font-weight:bold;font-style:italic">string </span>collect
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#888;font-style:italic"># Function to read user input
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>  <span style="font-weight:bold;text-decoration:underline">function</span> <span style="color:#666;font-weight:bold;font-style:italic">read_input</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">set</span> -l <span style="color:#666;font-weight:bold;font-style:italic">prompt</span> <span style="color:#666;font-weight:bold;font-style:italic">$argv</span>[1]
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;font-style:italic">read</span> -P <span style="color:#666;font-weight:bold;font-style:italic">$prompt</span> reply
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-weight:bold;font-style:italic">$reply</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#888;font-style:italic"># Main script
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>  <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Generating AI-powered commit message...&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">commit_message</span> (<span style="color:#666;font-weight:bold;font-style:italic">generate_commit_message</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">while</span> <span style="font-weight:bold;text-decoration:underline">true</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> -e <span style="color:#666;font-style:italic">&#34;Proposed commit message:\n&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> -e <span style="color:#666;font-style:italic">&#34;</span><span style="color:#666;font-weight:bold;font-style:italic">$commit_message</span><span style="color:#666;font-style:italic">&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">echo</span> -e <span style="color:#666;font-style:italic">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">choice</span> (<span style="color:#666;font-weight:bold;font-style:italic">read_input</span> <span style="color:#666;font-style:italic">&#34;Do you want to (c)ancel, (a)ccept, (e)dit or (r)egenerate? &#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">switch</span> <span style="color:#666;font-weight:bold;font-style:italic">$choice</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">case</span> <span style="color:#666;font-style:italic">&#39;a&#39;</span> <span style="color:#666;font-style:italic">&#39;A&#39;</span> <span style="color:#666;font-style:italic">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;</span><span style="color:#666;font-weight:bold;font-style:italic">$commit_message</span><span style="color:#666;font-style:italic">&#34;</span> | <span style="color:#666;font-weight:bold;font-style:italic">git</span> commit --file -
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Changes committed successfully!&#34;</span>
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">return</span> 0
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Commit failed. Please check your changes and try again.&#34;</span>
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">return</span> 1
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">case</span> <span style="color:#666;font-style:italic">&#39;e&#39;</span> <span style="color:#666;font-style:italic">&#39;E&#39;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">commit_message</span> (<span style="font-weight:bold;font-style:italic">read</span> -P <span style="color:#666;font-style:italic">&#34;Enter your commit message: &#34;</span> -m)
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">if</span> [ -n <span style="color:#666;font-style:italic">&#34;</span><span style="color:#666;font-weight:bold;font-style:italic">$commit_message</span><span style="color:#666;font-style:italic">&#34;</span> ]
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">if</span> <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;</span><span style="color:#666;font-weight:bold;font-style:italic">$commit_message</span><span style="color:#666;font-style:italic">&#34;</span> | <span style="color:#666;font-weight:bold;font-style:italic">git</span> commit --file -
+</span></span><span style="display:flex;"><span>                      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Changes committed successfully with your message!&#34;</span>
+</span></span><span style="display:flex;"><span>                      <span style="font-weight:bold;text-decoration:underline">return</span> 0
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>                      <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Commit failed. Please check your message and try again.&#34;</span>
+</span></span><span style="display:flex;"><span>                      <span style="font-weight:bold;text-decoration:underline">return</span> 1
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">else</span>
+</span></span><span style="display:flex;"><span>                  <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Empty commit message. Please try again.&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">case</span> <span style="color:#666;font-style:italic">&#39;r&#39;</span> <span style="color:#666;font-style:italic">&#39;R&#39;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Regenerating commit message...&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">set</span> <span style="color:#666;font-weight:bold;font-style:italic">commit_message</span> (<span style="color:#666;font-weight:bold;font-style:italic">generate_commit_message</span>)
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">case</span> <span style="color:#666;font-style:italic">&#39;c&#39;</span> <span style="color:#666;font-style:italic">&#39;C&#39;</span> <span style="color:#666;font-style:italic">&#39;q&#39;</span> <span style="color:#666;font-style:italic">&#39;Q&#39;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Commit cancelled.&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">return</span> 1
+</span></span><span style="display:flex;"><span>          <span style="font-weight:bold;text-decoration:underline">case</span> <span style="color:#666;font-style:italic">&#39;*&#39;</span>
+</span></span><span style="display:flex;"><span>              <span style="font-weight:bold;text-decoration:underline">echo</span> <span style="color:#666;font-style:italic">&#34;Invalid choice. Please try again.&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold;text-decoration:underline">end</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">end</span>
 </span></span></code></pre></div>
+</details> </p>
+
     
   </div>
 
