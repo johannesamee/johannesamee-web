@@ -62,3 +62,5 @@ changed to
 ```fish
 git commit --file -
 ```
+
+test: this is a test line to trigger notebook deploy workflow
