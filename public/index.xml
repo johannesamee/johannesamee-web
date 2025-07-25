@@ -6,8 +6,15 @@
     <description>Recent content in Home on Johannes Amée</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating Md to Html and Git</title>
+      <link>http://localhost:1313/notebook/automating-md-to-html-and-git/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/automating-md-to-html-and-git/</guid>
+      <description>&lt;h2 class=&#34;heading&#34; id=&#34;draft-header&#34;&gt;&#xA;  Draft header&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#draft-header&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fish&#34; data-lang=&#34;fish&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#666;font-weight:bold;font-style:italic&#34;&gt;brew&lt;/span&gt; install llm&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#666;font-weight:bold;font-style:italic&#34;&gt;llm&lt;/span&gt; keys set &lt;span style=&#34;color:#666;font-weight:bold;font-style:italic&#34;&gt;anthropic&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#666;font-weight:bold;font-style:italic&#34;&gt;curl&lt;/span&gt; -Lo ~/.config/&lt;span style=&#34;font-weight:bold;font-style:italic&#34;&gt;fish&lt;/span&gt;/&lt;span style=&#34;font-weight:bold;font-style:italic&#34;&gt;functions&lt;/span&gt;/gcm.&lt;span style=&#34;font-weight:bold;font-style:italic&#34;&gt;fish &lt;/span&gt;https://gist.githubusercontent.com/wipash/1d9a92006643ac5823219c5c6f20da89/raw/gcm-llm.&lt;span style=&#34;font-weight:bold;font-style:italic&#34;&gt;fish&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>Johannes Cukes Uses</title>
       <link>http://localhost:1313/notebook/johannes-cukes-uses/</link>
