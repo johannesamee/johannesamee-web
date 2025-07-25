@@ -53,3 +53,12 @@ end
 abbr -a nb 'notebook new'
 abbr -a nd 'notebook deploy'
 ```
+
+Also changing the gcm script and removing args from the commit echos.
+```fish
+git commit $argv --file -
+```
+changed to
+```fish
+git commit --file -
+```
