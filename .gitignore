@@ -1,0 +1,8 @@
+.obsidian
+**/.DS_Store
+.DS_Store
+
+# Hugo generated files
+public/
+resources/_gen/
+.hugo_build.lock
