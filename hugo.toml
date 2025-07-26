@@ -79,9 +79,9 @@ unsafe = true
 # Giscus comments
 [params.giscus]
 enable = true
-repo = "user/repo"
-repoid = "repoId"
+repo = "johannesamee/johannesamee-web"
+repoid = "R_kgDOMOH9Ng"
 category = "Announcements"
-categoryid = "categoryId"
+categoryid = "DIC_kwDOMOH9Ns4CtbwN"
 mapping = "pathname"
 theme = "preferred_color_scheme"
