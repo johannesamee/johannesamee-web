@@ -7,9 +7,7 @@ summary = 'How I integrated Obsidian as my editor of choice to my Hugo workflow.
 toc = true  
 autonumber = true  
 +++
-
 ## The problem
-
 I love Neovim, I love customizing my Neovim config, I love optimizing my Neovim config.  
 There's still a big user experience problem for me related to working with markdown files and content, Neovim cannot beat Obsidian in my experience.
 
