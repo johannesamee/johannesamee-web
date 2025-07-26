@@ -6,3 +6,4 @@
 public/
 resources/_gen/
 .hugo_build.lock
+content/copilot-custom-prompts

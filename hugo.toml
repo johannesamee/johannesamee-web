@@ -78,10 +78,10 @@ unsafe = true
 
 # Giscus comments
 [params.giscus]
-enable = false
+enable = true
 repo = "user/repo"
 repoid = "repoId"
-category = "General"
+category = "Announcements"
 categoryid = "categoryId"
 mapping = "pathname"
 theme = "preferred_color_scheme"
