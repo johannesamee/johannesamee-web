@@ -5,7 +5,6 @@ title = 'Automating Md to Html and Git'
 toc = true
 autonumber = true
 +++
-
 ## Draft header (small change) v2 v3 v4
 ```fish
 brew install llm
@@ -172,3 +171,12 @@ Don't wrap your response in backticks or any other characters.
   end
 end
 {{< /collapsiblecode >}}
+
+## Alternative LLM integrations
+*Updated Monday 2025-07-28*
+
+It works very well out-of-the-box and seems to offer the same level of customization.
+Among the alternatives to the custom gcm function used in the first version of this setup, the plugin [LLM Commit](https://www.johannesamee.com/notebook/integrating-obsidian-with-hugo/) for the CLI tool [LLM](https://llm.datasette.io/en/stable/) is the best one I've explored."
+
+I've found myself using this way more for regular commits in other side-projects and will probably integrate this instead of the initial `gcm` function solution. 
+Note that this is purely my personal preference and the quality of outputs between the two was not a driving factor to this planned change at all.
